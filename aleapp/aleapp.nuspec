@@ -11,7 +11,7 @@
     <projectUrl>https://github.com/abrignoni/ALEAPP</projectUrl>
     <copyright>2020 Alexis Brignoni</copyright>
     <licenseUrl>https://github.com/abrignoni/ALEAPP/blob/master/LICENSE</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/abrignoni/ALEAPP</projectSourceUrl>
     <docsUrl>https://github.com/abrignoni/ALEAPP/blob/master/README.md</docsUrl>
     <mailingListUrl>https://twitter.com/AlexisBrignoni</mailingListUrl>

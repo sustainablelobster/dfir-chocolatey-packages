@@ -9,6 +9,7 @@
     <title>Arsenal Image Mounter</title>
     <authors>Arsenal Recon</authors>
     <projectUrl>https://arsenalrecon.com/products/arsenal-image-mounter</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/f93b7cd20daa8e19d718ae2f4e799010f41561b9/icons/arsenal-image-mounter.png</iconUrl>
     <copyright>2015 Arsenal Recon</copyright>
     <licenseUrl>https://github.com/ArsenalRecon/Arsenal-Image-Mounter/blob/master/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -40,6 +41,7 @@ Arsenal Consulting, Inc. (d/b/a Arsenal Recon) retains the copyright to Arsenal 
 
 Contributors to Arsenal Image Mounter must sign the Arsenal Contributor Agreement ("ACA"). The ACA gives Arsenal and the contributor joint copyright interests in the source code.
 ]]></description>
+    <releaseNotes>https://arsenalrecon.com/products/arsenal-image-mounter/downloads</releaseNotes>
     <dependencies>
       <dependency id="dotnet-6.0-desktopruntime" />
     </dependencies>

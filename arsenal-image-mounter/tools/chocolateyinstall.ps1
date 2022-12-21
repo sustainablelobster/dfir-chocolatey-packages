@@ -6,8 +6,8 @@ if ($OSArchitectureWidth -ne 64) {
 }
 
 $ToolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$FileLocation = Join-Path $ToolsDir 'Arsenal-Image-Mounter.zip'
-Get-ChocolateyUnzip $FileLocation $ToolsDir
+$ZipPath = Join-Path $ToolsDir 'Arsenal-Image-Mounter.zip'
+Get-ChocolateyUnzip $ZipPath $ToolsDir
 $AimGuiPath = (Get-ChildItem -Path $ToolsDir -Filter 'ArsenalImageMounter.exe' -Recurse).FullName
 New-Item -Path ($AimGuiPath + '.gui') -Type 'File'
-Remove-Item -Path $FileLocation -Force
+Remove-Item -Path $ZipPath -Force

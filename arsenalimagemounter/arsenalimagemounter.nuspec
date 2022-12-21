@@ -2,9 +2,9 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>arsenal-image-mounter</id>
+    <id>arsenalimagemounter</id>
     <version>3.9.228</version>
-    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/arsenal-image-mounter</packageSourceUrl>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/arsenalimagemounter</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>Arsenal Image Mounter</title>
     <authors>Arsenal Recon</authors>
@@ -16,7 +16,7 @@
     <projectSourceUrl>https://github.com/ArsenalRecon/Arsenal-Image-Mounter</projectSourceUrl>
     <docsUrl>https://arsenalrecon.com/arsenal-image-mounter-aim-walkthrough</docsUrl>
     <bugTrackerUrl>https://github.com/ArsenalRecon/Arsenal-Image-Mounter/issues</bugTrackerUrl>
-    <tags>arsenal-image-mounter forensics dfir</tags>
+    <tags>arsenalimagemounter forensics dfir</tags>
     <summary>Arsenal Image Mounter mounts the contents of disk images as complete disks in Microsoft Windows.</summary>
     <description><![CDATA[
 Arsenal Image Mounter mounts the contents of disk images as complete disks in Microsoft Windows. Arsenal Image Mounter includes a virtual SCSI adapter (via a unique Storport miniport driver) which allows users to benefit from disk-specific features in Windows like integration with Disk Manager, access to Volume Shadow Copies, and more. As far as Windows is concerned, the contents of disk images mounted by Arsenal Image Mounter are “real” SCSI disks.

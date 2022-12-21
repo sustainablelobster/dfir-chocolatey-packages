@@ -19,6 +19,7 @@
     <tags>aleapp android forensics dfir</tags>
     <summary>Android Logs Events And Protobuf Parser</summary>
     <description>ALEAPP can parse logical Android file systems, tar and zip extractions as well as provide reports in html and csv formats.</description>
+    <releaseNotes>https://github.com/abrignoni/ALEAPP/releases/latest</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

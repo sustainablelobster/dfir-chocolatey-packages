@@ -18,7 +18,7 @@
     <bugTrackerUrl>https://github.com/sans-dfir/sift/issues</bugTrackerUrl>
     <tags>wsl-sift-workstation forensics dfir</tags>
     <summary>The SIFT Workstation is a collection of free and open-source incident response and forensic tools designed to perform detailed digital forensic examinations in a variety of settings.</summary>
-    <description></description>
+    <description>Readme</description>
     <releaseNotes>https://github.com/teamdfir/sift-cli/releases</releaseNotes>
     <dependencies>
       <dependency id="wsl" version="1.0.1" />

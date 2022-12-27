@@ -1,3 +1,3 @@
-﻿$ErrorActionPreference = 'Stop' # stop on all errors
+﻿$ErrorActionPreference = 'Stop'
 
 pip3 uninstall --yes virtualenv

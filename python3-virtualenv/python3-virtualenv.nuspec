@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>python3-virtualenv</id>
-    <version>20.17.1.20221227</version>
+    <version>20.17.1</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/python3-virtualenv</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>Virtualenv</title>
@@ -31,7 +31,7 @@ Or more generally, what if you want to install an application and leave it be? I
 In all these cases, virtualenv can help you. It creates an environment that has its own installation directories, that doesn’t share libraries with other virtualenv environments (and optionally doesn’t access the globally installed libraries either).
 ]]></description>
     <releaseNotes>https://github.com/pypa/virtualenv/releases</releaseNotes>
-   <dependencies>
+    <dependencies>
       <dependency id="python3" version="3.6" />
     </dependencies>
   </metadata>

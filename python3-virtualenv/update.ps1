@@ -2,36 +2,29 @@ Import-Module -Name 'au'
 
 function global:au_SearchReplace {
     @{
-        '.\tools\VERIFICATION.txt' = @{
-            '(?i)(\s+URL32:).*'      = "`${1} $($Latest.URL32)"
-            '(?i)(\s+Checksum32:).*' = "`${1} $($Latest.Checksum32)"
-            '(?i)(\s+Get-RemoteChecksum).*' = "`${1} $($Latest.URL32)"
+        '.\python3-virtualenv.nuspec' = @{
+            '^\s*<dependency id="python3" version=".+" />\s*$' = "      <dependency id=`"python3`" version=`"$($Latest.PythonVersion)`" />"
         }
     }
 }
 
 function global:au_GetLatest {
-    $PyPiPage = Invoke-WebRequest -UseBasicParsing -Uri 'https://pypi.org/project/virtualenv/#files'
-    $WheelLink = $PyPiPage.Links | Where-Object -Property 'Href' -Match 'virtualenv-((?:\d+\.){0,3}\d+).*-py3-none-any.whl'
+    $PyPiPage = Invoke-WebRequest -UseBasicParsing -Uri 'https://pypi.org/project/virtualenv'
     
-    $Version = $Matches[1]
-    if (-not $Version) {
+    if ($PyPiPage.Content -notmatch 'virtualenv\s+(\d+(?:\.\d+){0,3})') {
         throw 'Failed to find version'
     }
+    $Version = $Matches[1]
 
-    $URL32 = $WheelLink.Href
-    if (-not $URL32) {
-        throw 'Failed to get URL'
+    if ($PyPiPage.Content -notmatch 'Python (?:&gt;|=)=(3(?:\.\d+){0,3})') {
+        throw 'Failed to find required Python version'
     }
-
+    $PythonVersion = $Matches[1]
+    
     @{
         Version = $Version
-        URL32 = $URL32
+        PythonVersion = $PythonVersion
     }
-}
-
-function global:au_BeforeUpdate {
-    Get-RemoteFiles -NoSuffix
 }
 
 Update-Package -ChecksumFor 'none'

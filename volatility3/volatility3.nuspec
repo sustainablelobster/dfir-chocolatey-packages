@@ -9,7 +9,7 @@
     <title>Volatility 3</title>
     <authors>Volatility Foundation</authors>
     <projectUrl>https://github.com/volatilityfoundation/volatility3/</projectUrl>
-    <!-- <iconUrl>http://rawcdn.githack.com/__REPLACE_YOUR_REPO__/master/icons/volatility3.png</iconUrl> -->
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/fefc799acfd22af92474fb593fa639e5ab150848/icons/volatility3.png</iconUrl>
     <copyright>2019 Volatility Foundation</copyright>
     <licenseUrl>https://github.com/volatilityfoundation/volatility3/blob/develop/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

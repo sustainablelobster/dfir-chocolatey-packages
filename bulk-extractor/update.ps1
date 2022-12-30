@@ -1,3 +1,4 @@
+$ErrorActionPreference = 'Stop'
 Import-Module -Name 'au'
 
 function global:au_SearchReplace {
@@ -21,6 +22,7 @@ function global:au_GetLatest {
 }
 
 function global:au_BeforeUpdate {
+    Remove-Item -Path '.\tools\bulk_extractor*.exe' -Force
     Get-RemoteFiles -NoSuffix
 }
 

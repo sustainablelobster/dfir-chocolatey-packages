@@ -4,7 +4,6 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $fileLocation = (Get-ChildItem -Path $toolsDir -Filter 'bulk_extractor*.exe').FullName
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  unzipLocation = $toolsDir
   fileType      = 'exe'
   file          = $fileLocation
   softwareName  = 'Bulk Extractor*'

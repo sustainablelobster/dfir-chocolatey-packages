@@ -17,7 +17,7 @@
     <description>The exploitation of Windows hibernation files to “look back in time” and uncover compelling evidence is crucial to digital forensics practitioners. Hibernation Recon not only supports active memory reconstruction from Windows XP, Vista, 7, 8/8.1, 10, and 11 hibernation files, but also extracts massive volumes of information from the multiple types (and levels) of slack space that may exist within them. Additional features of Hibernation Recon include the automatic recovery of valuable NTFS metadata and parallel processing of multiple hibernation files. Digital forensics practitioners cannot afford to analyze electronic evidence without extracting maximum value from Windows hibernation files.</description>
     <releaseNotes>https://arsenalrecon.com/products/hibernation-recon/downloads</releaseNotes>
     <dependencies>
-      <dependency id="megatools" />
+      <dependency id="megatools" version="1.11.0.20220919" />
     </dependencies>
   </metadata>
   <files>

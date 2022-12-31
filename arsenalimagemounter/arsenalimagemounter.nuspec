@@ -43,7 +43,7 @@ Contributors to Arsenal Image Mounter must sign the Arsenal Contributor Agreemen
 ]]></description>
     <releaseNotes>https://arsenalrecon.com/products/arsenal-image-mounter/downloads</releaseNotes>
     <dependencies>
-      <dependency id="dotnet-6.0-desktopruntime" />
+      <dependency id="dotnet-6.0-desktopruntime" version="6.0" />
     </dependencies>
   </metadata>
   <files>

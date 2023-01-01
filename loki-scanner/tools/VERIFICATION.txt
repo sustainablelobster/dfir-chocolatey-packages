@@ -1,0 +1,9 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Download fastfind zip package:
+    URL: https://github.com/Neo23x0/Loki/releases/download/v0.45.0/loki_0.45.0.zip
+
+Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
+    SHA256: 4724034C58FDA835B86194970B98C7109CC304FB9DD34012EB5B5E2708471BED

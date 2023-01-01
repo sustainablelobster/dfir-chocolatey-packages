@@ -1,0 +1,9 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Download fastfind zip package:
+    URL: https://github.com/codeyourweb/fastfinder/releases/download/2.0.0/fastfinder_v2.0.0-windows.zip
+
+Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
+    SHA256: A40ADAB82ADE6B563AC530174A083CB37E17BABAA152272AE64AF2DB801B0AE7

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>fastfinder</id>
+    <version>2.0.0</version>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/fastfinder</packageSourceUrl>
+    <owners>sustainablelobster</owners>
+    <title>FastFinder</title>
+    <authors>Jean-Pierre GARNIER</authors>
+    <projectUrl>https://github.com/codeyourweb/fastfinder</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/9935f45250c30f29ecf38693e1a5c6cfc46a459b/icons/fastfinder.png</iconUrl>
+    <copyright>2021 Jean-Pierre GARNIER</copyright>
+    <licenseUrl>https://github.com/codeyourweb/fastfinder/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/codeyourweb/fastfinder</projectSourceUrl>
+    <docsUrl>https://github.com/codeyourweb/fastfinder#usage</docsUrl>
+    <bugTrackerUrl>https://github.com/codeyourweb/fastfinder/issues</bugTrackerUrl>
+    <tags>fastfinder digital forensics incident response dfir</tags>
+    <summary>Fast suspicious file finder for incident response.</summary>
+    <description><![CDATA[* file path / name
+* md5 / sha1 / sha256 checksum
+* simple string content match
+* complex content condition(s) based on YARA
+]]></description>
+    <releaseNotes>https://github.com/codeyourweb/fastfinder/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,9 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Download zip package:
+    URL: https://github.com/jschicht/Mft2Csv/releases/download/v2.0.0.49/Mft2Csv_v2.0.0.49.zip
+
+Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
+    SHA256: C97028D204780AB7798B7E0D6EECDE74A544BFADFCC4C18C2AF36A02ED4ACF33

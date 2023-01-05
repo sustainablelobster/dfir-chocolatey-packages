@@ -34,8 +34,7 @@ function global:au_GetLatest {
 }
 
 function global:au_BeforeUpdate {
-    Remove-Item -Path '.\tools\CyberChef*.zip' -Force
-    Get-RemoteFiles -NoSuffix
+    Get-RemoteFiles -NoSuffix -Purge
 }
 
 Update-Package -ChecksumFor 'none'

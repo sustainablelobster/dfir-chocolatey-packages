@@ -38,7 +38,7 @@ function global:au_GetLatest {
 }
 
 function global:au_BeforeUpdate {
-    Get-RemoteFiles -NoSuffix
+    Get-RemoteFiles -NoSuffix -Purge
 }
 
 Update-Package -ChecksumFor 'none'

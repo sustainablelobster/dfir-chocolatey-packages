@@ -2,9 +2,9 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>logfileparser</id>
+    <id>logfile-parser</id>
     <version>2.0.0.49</version>
-    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/logfileparser</packageSourceUrl>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/logfile-parser</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>LogFileParser</title>
     <authors>Joakim Schicht </authors>
@@ -15,7 +15,7 @@
     <projectSourceUrl>https://github.com/jschicht/LogFileParser</projectSourceUrl>
     <docsUrl>https://github.com/jschicht/LogFileParser/blob/master/readme.txt</docsUrl>
     <bugTrackerUrl>https://github.com/jschicht/LogFileParser/issues</bugTrackerUrl>
-    <tags>logfileparser logfile parser ntfs digital forensics incident response dfir</tags>
+    <tags>logfile-parser logfile parser ntfs digital forensics incident response dfir</tags>
     <summary>Parser for $LogFile on NTFS</summary>
     <description><![CDATA[## Features
 

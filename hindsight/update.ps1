@@ -1,3 +1,4 @@
+$ErrorActionPreference = 'Stop'
 Import-Module -Name 'au'
 
 function global:au_SearchReplace {

@@ -1,0 +1,9 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Download zip package:
+    URL: https://github.com/jschicht/UsnJrnl2Csv/releases/download/v1.0.0.24/UsnJrnl2Csv_v1.0.0.24.zip
+
+Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
+    SHA256: 58E8203611A0D900D4DC2847AD9287739B0C35C9F8BD1558A45C08A743FF6EB0

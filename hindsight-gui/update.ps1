@@ -20,7 +20,7 @@ function global:au_GetLatest {
     $Version = $Matches[1]
 
     $AssetsPage = Invoke-WebRequest -UseBasicParsing -Uri $AssetsUrl
-    $URL32 = $AssetsPage.Links.href | Where-Object { $_ -match 'hindsight\.exe' }
+    $URL32 = $AssetsPage.Links.href | Where-Object { $_ -match 'hindsight_gui\.exe' }
     if ($null -eq $URL32) {
         throw "Unable to find hindsight.exe URL"
     }
@@ -37,5 +37,6 @@ function global:au_GetLatest {
 function global:au_BeforeUpdate {
     Get-RemoteFiles -NoSuffix -Purge
 }
+
 
 Update-Package

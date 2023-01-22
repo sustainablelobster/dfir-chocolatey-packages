@@ -42,6 +42,13 @@ Additional Checks:
     4. SAM dump check
 
 The Windows binary is compiled with PyInstaller and should run as x86 application on both x86 and x64 based systems.
+
+## Note on VirusTotal detections
+
+This software is packaged using [PyInstaller](https://pyinstaller.org/en/stable/),
+a tool for bundling Python applications into a single executable. Apps packaged
+in this manner are often incorrectly flagged as malware. PyInstaller's core
+developer explains the issue here: https://github.com/pyinstaller/pyinstaller/issues/6754#issuecomment-1100821249
 ]]></description>
     <releaseNotes>https://github.com/Neo23x0/Loki/releases</releaseNotes>
   </metadata>

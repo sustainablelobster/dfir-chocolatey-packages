@@ -36,6 +36,12 @@ From version 1.0.0.5, all structure members were included in the output.
 The USN_PAGE_SIZE is configurable. The default value is 4096, and should be sufficient for most cases.
 
 Timestamps are written UTC 0.00 by default, but can be configured to anything. The format and precision of the timestamps can also be configured, as well as the millisec/precision separator. See displayed examples in the gui.
+
+## Note on VirusTotal detections
+
+This application is a compiled [AutoIt](https://www.autoitscript.com/site/) script.
+AutoIt scripts packaged in this way are often incorrectly flagged as malware.
+This is issue is documented in the AutoIt Wiki here: https://www.autoitscript.com/wiki/AutoIt_and_Malware
 ]]></description>
     <releaseNotes>https://github.com/jschicht/UsnJrnl2Csv/blob/master/changelog.txt</releaseNotes>
   </metadata>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>aurora-ir</id>
+    <version>0.6.6</version>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/aurora-ir</packageSourceUrl>
+    <owners>sustainablelobster</owners>
+    <title>Aurora</title>
+    <authors>Mathias Fuchs, CyberFox</authors>
+    <projectUrl>https://github.com/cyb3rfox/Aurora-Incident-Response</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/98609c0a7f602d64c5a4a5df443dcc202441895b/icons/aurora-ir.png</iconUrl>
+    <copyright>2018-2021 Mathias Fuchs</copyright>
+    <licenseUrl>https://github.com/cyb3rfox/Aurora-Incident-Response/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/cyb3rfox/Aurora-Incident-Response</projectSourceUrl>
+    <docsUrl>https://github.com/cyb3rfox/Aurora-Incident-Response/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/cyb3rfox/Aurora-Incident-Response/issues</bugTrackerUrl>
+    <tags>aurora-ir digital forensics incident response dfir</tags>
+    <summary>Incident Response Documentation made easy. Developed by Incident Responders for Incident Responders</summary>
+    <description><![CDATA[Incident Response Documentation made easy. Developed by Incident Responders for Incident Responders.
+Aurora brings "Spreadsheet of Doom" used in the SANS FOR508 class to the next level. Having led many cases and taught so many students how to do IR right, I realized, that many struggle
+with keeping control over all the findings. That does not only prevent them from seeing what they already have, but even less so what they are missing. 
+
+It's intended to be used in small and big incident response investigations to track findings, tasks, making reporting easy and generally stay on top of the game. The current version has been battle tested multiple times now. 
+I'll keep fixing bugs and adding features as we go, but please remember, it's a leisure time project. So any help is appreciated.
+]]></description>
+    <releaseNotes>https://github.com/cyb3rfox/Aurora-Incident-Response/releases</releaseNotes>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

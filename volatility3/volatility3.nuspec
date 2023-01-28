@@ -15,7 +15,6 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/volatilityfoundation/volatility3/</projectSourceUrl>
     <docsUrl>https://volatility3.readthedocs.io/en/latest/</docsUrl>
-    <mailingListUrl>https://lists.volatilityfoundation.org/mailman3/postorius/lists/vol-users.lists.volatilityfoundation.org/</mailingListUrl>
     <bugTrackerUrl>https://github.com/volatilityfoundation/volatility3/issues</bugTrackerUrl>
     <tags>volatility3 memory ram forensics dfir</tags>
     <summary>Volatility is the world's most widely used framework for extracting digital artifacts from volatile memory (RAM) samples.</summary>

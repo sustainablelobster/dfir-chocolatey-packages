@@ -15,7 +15,7 @@ function global:au_GetLatest {
     $SavedProgressPreference = $ProgressPreference
     $ProgressPreference = 'SilentlyContinue'
     $LatestReleasePage = Invoke-WebRequest -UseBasicParsing -Uri 'https://github.com/abrignoni/iLEAPP/releases/latest'
-    if ($LatestReleasePage.Content -notmatch 'https://github\.com/abrignoni/iLEAPP/releases/expanded_assets/v?\.((?:\d+\.){0,3}\d+)') {
+    if ($LatestReleasePage.Content -notmatch 'https://github\.com/abrignoni/iLEAPP/releases/expanded_assets/v?(\d+(?:\.\d+){0,3})') {
         throw "Unable to find assets page"
     }
 
@@ -24,9 +24,9 @@ function global:au_GetLatest {
 
     $AssetsPage = Invoke-WebRequest -UseBasicParsing -Uri $AssetsUrl
     $ProgressPreference = $SavedProgressPreference
-    $URL32 = $AssetsPage.Links.href | Where-Object { $_ -match 'iLEAPP-windows\.zip' }
+    $URL32 = $AssetsPage.Links.href | Where-Object { $_ -match 'ileapp\.exe' }
     if ($null -eq $URL32) {
-        throw "Unable to find zip URL"
+        throw "Unable to find exe URL"
     }
     if ($URL32 -notmatch '^https://github\.com') {
         $URL32 = 'https://github.com' + $URL32

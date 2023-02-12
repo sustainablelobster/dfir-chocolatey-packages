@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   URL32: https://github.com/abrignoni/ALEAPP/releases/download/v3.1.5/ALEAPP-windows.zip
+   URL32: https://github.com/abrignoni/ALEAPP/releases/download/v3.1.6/ALEAPP-windows.zip
 
    to download the zip package.
 
@@ -15,8 +15,8 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   Checksum32: 671AFABA83BED4688BE8C400189FB1F48A262E75E3AD5EEC3634CC86C38DB924
+   Checksum32: 34284D073BFBE510F7FA94E8289A1F4D6011E2B975BF5404470EC14CFA9A6DFB
 
 Using AU:
 
-   Get-RemoteChecksum https://github.com/abrignoni/ALEAPP/releases/download/v3.1.5/ALEAPP-windows.zip
+   Get-RemoteChecksum https://github.com/abrignoni/ALEAPP/releases/download/v3.1.6/ALEAPP-windows.zip

@@ -35,7 +35,7 @@ function global:au_GetLatest {
 }
 
 function global:au_BeforeUpdate {
-    Get-RemoteFiles -NoSuffix -Purge
+    Get-RemoteFiles -NoSuffix -FileNameBase "Aurora" -Purge
 }
 
 Update-Package -ChecksumFor 'none'

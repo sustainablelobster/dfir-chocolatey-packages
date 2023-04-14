@@ -6,9 +6,9 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   url           = 'https://www.nirsoft.net/utils/fulleventlogview.zip'
   url64bit      = 'https://www.nirsoft.net/utils/fulleventlogview-x64.zip'
-  checksum      = '49023dd20359187671e76693f6bc4175c2c54cdef1503b4f64953e4761b79397'
+  checksum      = '3647f159fe0033ea4f9827fd276665b439906ea21fccb6a785b2b2974b874bdc'
   checksumType  = 'sha256'
-  checksum64    = '0e408f33c8d06a02b4baa1b0866f993e1376d0cbbb90a33b0528a832fad29bee'
+  checksum64    = '872ecf4c4c92033be433217a158130255683c6612069792d103a2cc68ab2bdef'
   checksumType64= 'sha256'
 }
 

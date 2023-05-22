@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://github.com/jschicht/LogFileParser/releases/download/v2.0.0.49/LogFileParser_v2.0.0.49.zip
+    URL: https://github.com/jschicht/LogFileParser/releases/download/v2.0.0.50/LogFileParser_v2.0.0.50.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 0A6A1A74802BC9EF8C5CE3D7A4A472D9F69C67C08A66337F30F4321F7F00FCAF
+    SHA256: 92FE01FFCC76CE9AB5C579DFA37F9CFCB5D705250C99C09B948F66702EAE1EEC

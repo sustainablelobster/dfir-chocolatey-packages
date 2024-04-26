@@ -24,9 +24,9 @@ function global:au_GetLatest {
 
     $AssetsPage = Invoke-WebRequest -UseBasicParsing -Uri $AssetsUrl
     $ProgressPreference = $SavedProgressPreference
-    $URL32 = $AssetsPage.Links.href | Where-Object { $_ -match 'ALEAPP-windows\.zip' }
+    $URL32 = $AssetsPage.Links.href | Where-Object { $_ -match 'aleapp\.exe' }
     if ($null -eq $URL32) {
-        throw "Unable to find zip URL"
+        throw "Unable to find exe URL"
     }
     if ($URL32 -notmatch '^https://github\.com') {
         $URL32 = 'https://github.com' + $URL32

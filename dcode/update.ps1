@@ -12,7 +12,7 @@ function global:au_SearchReplace {
 
 function global:au_GetLatest {
     $DownloadPage = Invoke-WebRequest -UseBasicParsing -Uri 'https://www.digital-detective.net/dcode/'
-    $Version = [regex]::Match($DownloadPage.Content, 'Filename : DCode-x86-EN-([\d\.]+).exe').Groups[1].Value
+    $Version = [regex]::Match($DownloadPage.Content, 'DCode-x86-EN-([\d\.]+).exe').Groups[1].Value
     $URL32 = $DownloadPage.Links.href | Where-Object { $_ -Match 'download\.php' }
 
     @{

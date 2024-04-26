@@ -6,7 +6,7 @@
     <version>1.5.0.0</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/evtxecmd</packageSourceUrl>
     <owners>sustainablelobster</owners>
-    <title>evtxecmd</title>
+    <title>EvtxECmd</title>
     <authors>Eric Zimmerman</authors>
     <projectUrl>https://ericzimmerman.github.io/#!index.md</projectUrl>
     <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/92a37dbf8bdfe9c23ab2f39b9ad240866668b1c1/icons/evtxecmd.png</iconUrl>

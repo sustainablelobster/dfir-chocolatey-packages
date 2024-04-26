@@ -45,6 +45,12 @@ The format of output can be chosen. Currently it is possible to choose from:
 It is possible to parse broken/partial $MFT by configuring "Broken $MFT". This setting is necessary if for instance index number 0 is missing (the record for $MFT itself).
 
 Also it is possible to configure the tool to skip fixups. This is something you may want if you are working on memory dumps. If so, you need to run MFTCarver on the memdump first. Then run mft2csv on the output file from MFTCarver. Must have both "Broken $MFT" and "Skip Fixups" configured in such a case.
+
+## Note on VirusTotal detections
+
+This application is a compiled [AutoIt](https://www.autoitscript.com/site/) script.
+AutoIt scripts packaged in this way are often incorrectly flagged as malware.
+This is issue is documented in the AutoIt Wiki here: https://www.autoitscript.com/wiki/AutoIt_and_Malware
 ]]></description>
     <releaseNotes>https://github.com/jschicht/Mft2Csv/blob/master/changelog.txt</releaseNotes>
   </metadata>

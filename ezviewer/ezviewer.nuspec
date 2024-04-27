@@ -27,7 +27,7 @@ For those in Law Enforcement, this tool is useful for bringing on site to a sear
 For those in the Private Sector, this tool is useful for bringing on site to a client engagement and not having to worry about having a certain application to open a certain file type.
 ]]></description>
     <dependencies>
-      <dependency id="dotnet-6.0-desktopruntime" version="6.0.0" />
+      <dependency id="dotnet-6.0-desktopruntime" version="6.0.3" />
     </dependencies>
   </metadata>
   <files>

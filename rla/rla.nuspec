@@ -18,7 +18,7 @@
     <bugTrackerUrl>https://github.com/EricZimmerman/RECmd/issues</bugTrackerUrl>
     <tags>digital forensics incident response dfir</tags>
     <summary>Replay transaction logs and update Registry hives so they are no longer dirty. Useful when tools do not know how to handle transaction logs.</summary>
-    <description><![CDATA[RLA is a tool that can be used to repair dirty Windows Registry hives. This is particularly useful when using tools that don’t handle dirty Registry hives themselves.
+    <description><![CDATA[RLA is a tool that can be used to repair dirty Windows Registry hives. This is particularly useful when using tools that don't handle dirty Registry hives themselves.
 
 ## RLA Use Cases
 This tool is useful for replaying Registry transaction logs which will ensure you’re parsing all possible data within a given Registry hive.

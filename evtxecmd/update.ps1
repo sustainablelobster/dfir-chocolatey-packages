@@ -12,7 +12,7 @@ function global:au_SearchReplace {
 
 function global:au_GetLatest {
     $LatestReleasePage = Invoke-WebRequest -UseBasicParsing `
-            -Uri 'https://rawcdn.githack.com/EricZimmerman/ericzimmerman.github.io/679dd34152c6b35509e6e5e49ffb64ead3177e5c/index.md'
+            -Uri 'https://raw.githack.com/EricZimmerman/ericzimmerman.github.io/master/index.md'
     if ($LatestReleasePage.Content -notmatch 'EvtxECmd.*&vert;\s*\[([\d.]+)\]\((.*/net6/EvtxECmd.zip)\)') {
         throw "Unable to find tool info"
     }

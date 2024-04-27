@@ -1,4 +1,4 @@
-﻿From: https://github.com/codeyourweb/fastfinder/blob/master/LICENSE
+﻿From: https://github.com/EricZimmerman/evtx/blob/master/LICENSE
 
 LICENSE
 

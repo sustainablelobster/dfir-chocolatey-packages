@@ -1,0 +1,3 @@
+﻿## MFT Explorer Introduction
+
+MFT Explorer is a tool created by Eric Zimmerman that can be used by forensic examiners to ingest $MFT files and visually explore the contents. Please note, this tool is not meant to ingest large $MFT files and therefore should be used on smaller $MFTs and purely for educational purposes. Everyday forensic examiners should use MFTECmd to parse $MFT files and export the output to CSV.

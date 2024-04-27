@@ -1,0 +1,9 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Download fastfind zip package:
+    URL: https://f001.backblazeb2.com/file/EricZimmermanTools/net6/rla.zip
+
+Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
+    SHA256: 3A67F6AA06F8EEF9B60417199DD06B3909AD8C94985180C687EF32468F7710C5

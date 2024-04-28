@@ -1,0 +1,9 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Download zip package:
+    URL: https://f001.backblazeb2.com/file/EricZimmermanTools/net6/SumECmd.zip
+
+Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
+    SHA256: 74ED2F833056C2C88EE906FD1CBD8938A1D8F0C2DF7E7CE031614858C8D16CB7

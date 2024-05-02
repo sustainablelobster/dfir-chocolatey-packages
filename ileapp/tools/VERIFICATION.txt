@@ -4,7 +4,7 @@ in verifying that this package's contents are trustworthy.
 
 1. Go to
 
-   URL32: https://github.com/abrignoni/iLEAPP/releases/download/v1.19.1/ileapp.exe
+   URL32: https://github.com/abrignoni/iLEAPP/releases/download/v1.19.3/ileapp.exe
 
    to download the zip package.
 
@@ -12,8 +12,8 @@ in verifying that this package's contents are trustworthy.
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   Checksum32: D2F0FDC04E116BF4650A2AFD211BB1509DA461D7C55B02CBB628A5A76C456B92
+   Checksum32: 28E6F85E7F7DB705D4D6B55F9AF21BF726B6FE5B5B362248E210741949E6790D
 
 Using AU:
 
-   Get-RemoteChecksum https://github.com/abrignoni/iLEAPP/releases/download/v1.19.1/ileapp.exe
+   Get-RemoteChecksum https://github.com/abrignoni/iLEAPP/releases/download/v1.19.3/ileapp.exe

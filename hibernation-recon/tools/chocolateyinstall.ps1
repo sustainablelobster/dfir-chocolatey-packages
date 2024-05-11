@@ -2,8 +2,8 @@
 $ErrorActionPreference = 'Stop' # stop on all errors
 
 $ToolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$MegaUrl = 'https://mega.nz/file/z4Q2iD4C#1I8eFUnuV-x-OOuFJ7G-8YWcNPDfrV26w3aL2mnqGPI'
-$Sha256 = 'DE71FB354E5D9A6193C165F18D775819F1277014A7317371CDEC14060857F606'
+$MegaUrl = 'https://mega.nz/file/3kRRxSZA#y98k7mBJKpygPxFu5Txi_-l9iDnyN3GzYxzjTVb3z-I'
+$Sha256 = 'BD76AE4F98908B400C8BEAA676B862D953C4AA49853634E663EF1F2AC84069A1'
 $ZipPath = '.\HibernationRecon.zip'
 
 megatools.exe dl --path="$ZipPath" $MegaUrl

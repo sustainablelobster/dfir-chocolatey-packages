@@ -1,0 +1,9 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Download zip package:
+    URL: https://f001.backblazeb2.com/file/EricZimmermanTools/net6/JLECmd.zip
+
+Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
+    SHA256: B0635517A72D2A7CDFDC92D5161F38E968380AE2EC33673571108BACF31B4480

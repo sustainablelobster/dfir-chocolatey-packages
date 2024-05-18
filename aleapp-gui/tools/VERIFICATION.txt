@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   URL32: https://github.com/abrignoni/ALEAPP/releases/download/v3.2.1/aleappGUI.exe
+   URL32: https://github.com/abrignoni/ALEAPP/releases/download/v3.2.2/aleappGUI.exe
 
    to download the .
 
@@ -15,8 +15,8 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   Checksum32: 39D7A90C74EC49DBBC18051AE70798972F0934C9C1F6F97CF8C0C6CD701C665A
+   Checksum32: ABCA427A28765369D6985D68F5503790E551A686CFF4C848BC6B3671B8966277
 
 Using AU:
 
-   Get-RemoteChecksum https://github.com/abrignoni/ALEAPP/releases/download/v3.2.1/aleappGUI.exe
+   Get-RemoteChecksum https://github.com/abrignoni/ALEAPP/releases/download/v3.2.2/aleappGUI.exe

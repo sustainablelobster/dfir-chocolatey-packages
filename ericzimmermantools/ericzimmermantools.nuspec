@@ -15,7 +15,7 @@
     <releaseNotes>https://binaryforay.blogspot.com/</releaseNotes>
     <copyright>2019 Eric Zimmerman</copyright>
     <tags>eric zimmerman forensics tools</tags>
-    <packageSourceUrl>https://github.com/EricZimmerman/ChocolateyPackages</packageSourceUrl>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/ericzimmermantools</packageSourceUrl>
     <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
     <dependencies>
       <dependency id="amcacheparser" version="1.5.1" />

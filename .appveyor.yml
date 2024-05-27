@@ -20,7 +20,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: sustainablelobster/dfir-chocolatey-packages
   github_api_key:
-    secure: EmscDEK5ff3a7VUl209bpfcvBmF1lC4xvra1C9jW8vailPBZP2iPRNY+MovhPpBE #https://ci.appveyor.com/tools/encrypt
+    secure: Xmd6uqpAypghAORJMsimpAFjoajsy2l269trR6xgbeul+rYSN8lUB0XVcTdvgqpi #https://ci.appveyor.com/tools/encrypt
 
 
   # Mail credentials - for error notifications
@@ -41,7 +41,7 @@ environment:
 
   # Chocolatey API key - to push updated packages
   api_key:
-    secure: IBxH1ClNWnTALAli3Pj8jnAwvrbuAiT95FsvChJkvKu4ZX6Gq1owyaR9ShMHkOlc # https://ci.appveyor.com/tools/encrypt
+    secure: EmscDEK5ff3a7VUl209bpfcvBmF1lC4xvra1C9jW8vailPBZP2iPRNY+MovhPpBE # https://ci.appveyor.com/tools/encrypt
 
 init:
 - git config --global user.email "chocolatey@realdimensions.net"

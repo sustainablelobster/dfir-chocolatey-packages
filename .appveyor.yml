@@ -41,7 +41,7 @@ environment:
 
   # Chocolatey API key - to push updated packages
   api_key:
-    secure: IBxH1ClNWnTALAli3Pj8jnAwvrbuAiT95FsvChJkvKu4ZX6Gq1owyaR9ShMHkOlc # https://ci.appveyor.com/tools/encrypt
+    secure: EmscDEK5ff3a7VUl209bpfcvBmF1lC4xvra1C9jW8vailPBZP2iPRNY+MovhPpBE # https://ci.appveyor.com/tools/encrypt
 
 init:
 - git config --global user.email "chocolatey@realdimensions.net"

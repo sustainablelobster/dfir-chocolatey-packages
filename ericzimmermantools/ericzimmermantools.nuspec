@@ -49,4 +49,5 @@
       <dependency id="xwfim" version="2.1.0" />
     </dependencies>
   </metadata>
+  <files />
 </package>

@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>evtxecmd</id>
-    <version>1.5.0.0</version>
+    <version>1.5.0.1</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/evtxecmd</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>EvtxECmd</title>

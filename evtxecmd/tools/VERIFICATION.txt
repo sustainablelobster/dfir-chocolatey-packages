@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://f001.backblazeb2.com/file/EricZimmermanTools/net6/EvtxECmd.zip
+    URL: https://download.ericzimmermanstools.com/net6/EvtxECmd.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
     SHA256: E1B4A5F9B09ECA3C057CDC2D0ED1A28FE0C24DC90F9F68B7E0572E373DCE86A6

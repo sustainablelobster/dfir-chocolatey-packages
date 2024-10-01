@@ -1,4 +1,4 @@
-﻿From: https://f001.backblazeb2.com/file/EricZimmermanTools/hasher.zip
+﻿From: https://download.ericzimmermanstools.com/hasher.zip
 
 LICENSE
 

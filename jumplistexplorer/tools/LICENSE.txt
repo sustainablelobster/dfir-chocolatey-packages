@@ -1,4 +1,4 @@
-﻿From: https://f001.backblazeb2.com/file/EricZimmermanTools/net6/JumpListExplorer.zip
+﻿From: https://download.ericzimmermanstools.com/net6/JumpListExplorer.zip
 
 LICENSE
 

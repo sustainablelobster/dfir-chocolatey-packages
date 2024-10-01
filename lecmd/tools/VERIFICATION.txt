@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://f001.backblazeb2.com/file/EricZimmermanTools/net6/LECmd.zip
+    URL: https://download.ericzimmermanstools.com/net6/LECmd.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
     SHA256: 103BD3F0209C26598718C81585EDBD624C4679A3E58ED369ADE325E33FB7022A

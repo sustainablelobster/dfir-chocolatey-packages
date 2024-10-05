@@ -2,18 +2,8 @@ VERIFICATION
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
-1. Go to
+Download zip package:
+    URL: https://github.com/abrignoni/iLEAPP/releases/download/v1.19.5/ileapp_Windows.zip
 
-   URL32: https://github.com/abrignoni/iLEAPP/releases/download/v1.19.4/ileapp.exe
-
-   to download the zip package.
-
-2. You can use one of the following methods to obtain the SHA256 checksum:
-   - Use powershell function 'Get-FileHash'
-   - Use Chocolatey utility 'checksum.exe'
-
-   Checksum32: 5EBDAC964E5B95DEBA1D08AB987678332FEFFBFD94A1B06BB5E6AC0D5AFFC7C6
-
-Using AU:
-
-   Get-RemoteChecksum https://github.com/abrignoni/iLEAPP/releases/download/v1.19.4/ileapp.exe
+Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
+    SHA256: 9B62AFB6E79F7D11EA807C0ED6A555884496CBF87E0D11E711E415EC67F72BAC

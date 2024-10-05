@@ -4,9 +4,8 @@ Import-Module -Name 'au'
 function global:au_SearchReplace {
     @{
         '.\tools\VERIFICATION.txt' = @{
-            '(?i)(\s+URL32:).*'      = "`${1} $($Latest.URL32)"
-            '(?i)(\s+Checksum32:).*' = "`${1} $($Latest.Checksum32)"
-            '(?i)(\s+Get-RemoteChecksum).*' = "`${1} $($Latest.URL32)"
+            '(?i)(\s+URL:).*'      = "`${1} $($Latest.URL32)"
+            '(?i)(\s+SHA256:).*' = "`${1} $($Latest.Checksum32)"
         }
     }
 }
@@ -24,9 +23,10 @@ function global:au_GetLatest {
 
     $AssetsPage = Invoke-WebRequest -UseBasicParsing -Uri $AssetsUrl
     $ProgressPreference = $SavedProgressPreference
-    $URL32 = $AssetsPage.Links.href | Where-Object { $_ -match 'aleappGUI\.exe' }
+    $URL32 = $AssetsPage.Links.href | Where-Object { $_ -match 'aleappGUI_Windows\.zip' }
+    
     if ($null -eq $URL32) {
-        throw "Unable to find exe URL"
+        throw "Unable to find zip URL"
     }
     if ($URL32 -notmatch '^https://github\.com') {
         $URL32 = 'https://github.com' + $URL32

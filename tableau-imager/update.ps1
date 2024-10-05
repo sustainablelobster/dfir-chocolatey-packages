@@ -11,7 +11,7 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $DownloadsPage = Invoke-WebRequest -UseBasicParsing -Uri 'https://www.opentext.com/products/tableau-download-center'
+    $DownloadsPage = Invoke-WebRequest -UseBasicParsing -Uri 'https://www.opentext.com/de_DE/products/security/OpenText+Tableau+Forensic+Download+Center.page'
     $TimLink = ($DownloadsPage.Links | Where-Object -Property 'outerHTML' -Match 'Tableau Forensic Imager ((?:\d+\.?){0,3}\d+)')
     
     @{

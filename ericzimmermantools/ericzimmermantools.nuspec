@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>ericzimmermantools</id>
-    <version>2.5.2.99</version>
+    <version>2.5.2.100</version>
     <title>Eric Zimmerman's tools</title>
     <authors>Eric Zimmerman</authors>
     <owners>EricRZimmerman, sustainablelobster</owners>
@@ -24,7 +24,7 @@
       <dependency id="evtxecmd" version="1.5.0.1" />
       <dependency id="ezviewer" version="2.0.0.1" />
       <dependency id="hasher-erz" version="2.0.0.1" />
-      <dependency id="iisgeolocate" version="2.2.0" />
+      <dependency id="iisgeolocate" version="2.2.0.1" />
       <dependency id="jlecmd" version="1.5.0.1" />
       <dependency id="jumplistexplorer" version="2.0.0.1" />
       <dependency id="lecmd" version="1.5.0.1" />

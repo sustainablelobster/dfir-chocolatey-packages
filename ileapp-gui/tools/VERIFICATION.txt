@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://github.com/abrignoni/iLEAPP/releases/download/v2.0.4/ileappGUI-v2.0.4-Windows.zip
+    URL: https://github.com/abrignoni/iLEAPP/releases/download/v2.1.0/ileappGUI-v2.1.0-Windows.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 5A1ED1E99677B73E4517EBEEB75C9E9BC0C347F97E1ECC7710ACBECABAEAD56E
+    SHA256: 47691A0719E84235720B9FB7BBFE1311E7A545A27E071F5BD95BB2F1A7ACD18C

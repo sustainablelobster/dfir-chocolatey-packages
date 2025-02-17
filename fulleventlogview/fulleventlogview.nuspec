@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>fulleventlogview</id>
+    <version>1.80</version>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/fulleventlogview</packageSourceUrl>
+    <owners>sustainablelobster</owners>
+    <title>FullEventLogView</title>
+    <authors>NirSoft, Nir Sofer</authors>
+    <projectUrl>https://www.nirsoft.net/utils/full_event_log_view.html</projectUrl>
+    <copyright>2016 - 2022 Nir Sofer</copyright>
+    <docsUrl>https://www.nirsoft.net/utils/full_event_log_view.html</docsUrl>
+    <bugTrackerUrl>https://www.nirsoft.net/contact-new.html</bugTrackerUrl>
+    <tags>fulleventlogview event log forensics dfir</tags>
+    <summary>FullEventLogView displays the details of all events from the event log of Windows (Including the event description).</summary>
+    <description><![CDATA[FullEventLogView is a simple tool for Windows 11/10/8/7/Vista that displays in a table the details of all events
+from the event logs of Windows, including the event description. It allows you to view the events of your local 
+computer, events of a remote computer on your network, and events stored in .evtx files. It also allows you to 
+export the events list to text/csv/tab-delimited/html/xml file from the GUI and from command-line.
+
+## System Requirements
+
+This utility works on any version of Windows, starting from Windows Vista and up to Windows 11. Both 32-bit and
+64-bit systems are supported. For Windows XP and older systems, you can use the 
+[MyEventViewer](https://www.nirsoft.net/utils/my_event_viewer.html) tool.
+]]></description>
+    <releaseNotes>https://www.nirsoft.net/utils/full_event_log_view.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

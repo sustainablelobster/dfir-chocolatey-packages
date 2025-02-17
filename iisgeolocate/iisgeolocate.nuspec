@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>iisgeolocate</id>
+    <version>2.2.0.1</version>
+    <title>iisGeolocate</title>
+    <authors>Eric Zimmerman</authors>
+    <owners>EricRZimmerman, sustainablelobster</owners>
+    <licenseUrl>https://github.com/EricZimmerman/iisGeolocate/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://ericzimmerman.github.io/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/03c264771475af43eb87dbe0bac8b449bded3adf/icons/iisgeolocate.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Adds geolocation information to IIS logs and extracts all unique IP addresses from said logs to a file</description>
+    <summary>geolocate ip addresses in IIS logs</summary>
+    <releaseNotes>https://github.com/EricZimmerman/iisGeolocate/releases</releaseNotes>
+    <copyright>2018 Eric Zimmerman</copyright>
+    <tags>iis weblog geolocate forensics</tags>
+    <projectSourceUrl>https://github.com/EricZimmerman/iisGeolocate</projectSourceUrl>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/iisgeolocate</packageSourceUrl>
+    <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
+    <dependencies>
+      <dependency id="dotnet-6.0-runtime" version="6.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

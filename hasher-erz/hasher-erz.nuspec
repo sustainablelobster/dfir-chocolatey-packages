@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>hasher-erz</id>
+    <version>2.1.0</version>
+    <title>Hasher</title>
+    <authors>Eric Zimmerman</authors>
+    <owners>EricRZimmerman, sustainablelobster</owners>
+    <licenseUrl>https://download.ericzimmermanstools.com/hasher.zip</licenseUrl>
+    <projectUrl>https://ericzimmerman.github.io/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/7cf07097c8f794c3a86291bd15b21a2f14b825df/icons/hasher-erz.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Hash files or entire directories using a wide variety of file hashes</description>
+    <summary>Fast, multi-threaded file hashing utility</summary>
+    <releaseNotes>https://binaryforay.blogspot.com/</releaseNotes>
+    <copyright>2021 Eric Zimmerman</copyright>
+    <tags>hashing md5 sha-1 sha-256 md4 crc32 sha-512 tiger whirlpool eMule forensics</tags>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/hasher-erz</packageSourceUrl>
+    <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

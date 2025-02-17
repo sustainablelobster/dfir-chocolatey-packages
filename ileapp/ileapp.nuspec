@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ileapp</id>
+    <version>2.0.4</version>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/ileapp</packageSourceUrl>
+    <owners>sustainablelobster</owners>
+    <title>ileapp</title>
+    <authors>Alexis Brignoni</authors>
+    <projectUrl>https://github.com/abrignoni/iLEAPP</projectUrl>
+    <copyright>2020 Brigs</copyright>
+    <licenseUrl>https://github.com/abrignoni/iLEAPP/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/abrignoni/iLEAPP</projectSourceUrl>
+    <docsUrl>https://github.com/abrignoni/iLEAPP/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/abrignoni/iLEAPP/issues</bugTrackerUrl>
+    <tags>ileapp ios log plist parser forensics dfir</tags>
+    <summary>iOS Logs, Events, And Plists Parser</summary>
+    <description><![CDATA[iOS Logs, Events, And Plists Parser  
+Details in blog post here: https://abrignoni.blogspot.com/2019/12/ileapp-ios-logs-events-and-properties.html
+
+Supports iOS/iPadOS 11, 12, 13 and 14.
+Select parsing directly from a compressed .tar/.zip file, or a decompressed directory, or an iTunes/Finder backup folder.
+
+## Features
+
+- iOS 12 & 13 Notifications  
+- Build Info (iOS version, etc.)  
+- Wireless cellular service info (IMEI, number, etc.)  
+- Screen icons list by screen and in grid order.  
+- ApplicationState.db support for app bundle ID to data container GUID correlation.   
+- User and computer names that the iOS device connected to. Function updated by Jack Farley (@JackFarley248, http://farleyforensics.com/).  
+etc...
+]]></description>
+    <releaseNotes>https://github.com/abrignoni/iLEAPP/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

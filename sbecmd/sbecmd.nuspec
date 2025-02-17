@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>sbecmd</id>
+    <version>2.1.0.1</version>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/sbecmd</packageSourceUrl>
+    <owners>sustainablelobster</owners>
+    <title>SBECmd</title>
+    <authors>Eric Zimmerman</authors>
+    <projectUrl>https://ericzimmerman.github.io/#!index.md</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/559802c15c2a9785cb704267ff34839b629cf054/icons/sbecmd.png</iconUrl>
+    <copyright>2015 Eric Zimmerman</copyright>
+    <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
+    <tags>digital forensics incident response dfir</tags>
+    <summary>ShellBags Explorer, command line edition, for exporting shellbag data</summary>
+    <description><![CDATA[SBECmd is a tool created by Eric Zimmerman used to parse the NTUSER.dat and UsrClass.dat Registry hives. These hives contains shell items that are recorded by Windows which indicate which folders a user has traversed.
+
+## SBECmd Use Cases
+
+### Law Enforcement
+
+For those in Law Enforcement, this tool is useful for parsing the NTUser.dat and UsrClass.dat user Registry hives which will contain artifacts of folder traversal. Since the NTUser.dat and UsrClass.dat Registry hives exist for each user, one can attribute the folder traversal artifacts to a specific account. For Law Enforcement, these artifacts may provide pointers to folders or ZIP files that no longer exist. This artifact will provide the first and last time the specific user interacted with a specific folder or ZIP file, in most cases.
+
+### Private Sector
+
+For those in the Private Sector, this tool is useful for enumerating what a user of interest did during unauthorized access to a given host. Often, artifacuts during periods of unauthorized access will show the threat actor accessing and viewing files and folders that are highly sensitive to the client’s business.
+]]></description>
+    <dependencies>
+      <dependency id="dotnet-6.0-runtime" version="6.0.28" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

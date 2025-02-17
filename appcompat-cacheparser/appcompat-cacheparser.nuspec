@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>appcompat-cacheparser</id>
+    <version>1.5.1</version>
+    <title>AppCompatCacheParser</title>
+    <authors>Eric Zimmerman</authors>
+    <owners>EricRZimmerman, sustainablelobster</owners>
+    <licenseUrl>https://github.com/EricZimmerman/AppCompatCacheParser/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://ericzimmerman.github.io/#!index.md</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/0009c7fa3d4706bc486b50072394b8f8a93e5f33/icons/appcompat-cacheparser.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>AppCompatCache parser used to show evidence of execution.</description>
+    <summary>AppCompatCache aka shimcache parser</summary>
+    <releaseNotes>https://github.com/EricZimmerman/AppCompatCacheParser/releases</releaseNotes>
+    <copyright>2015 Eric Zimmerman</copyright>
+    <tags>registry appcompatcache shimcache execution forensics</tags>
+    <projectSourceUrl>https://github.com/EricZimmerman/AppCompatCacheParser</projectSourceUrl>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/appcompat-cacheparser</packageSourceUrl>
+    <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
+    <dependencies>
+      <dependency id="dotnet-6.0-runtime" version="6.0.14" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,9 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Download zip package:
+    URL: https://download.ericzimmermanstools.com/net6/SrumECmd.zip
+
+Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
+    SHA256: 09762BDBD45EBAA4BD6E2CFA6DC8CDAEA2092EE6B657420787098D8A6397E9C4

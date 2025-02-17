@@ -1,0 +1,9 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Download zip package:
+    URL: https://download.ericzimmermanstools.com/net6/SDBExplorer.zip
+
+Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
+    SHA256: C88085E74405801F9D4F2557CE35EAA6316E6FE812E5EFD66A6A1D87F1B1CBD6

@@ -1,0 +1,9 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Download zip package:
+    URL: https://download.ericzimmermanstools.com/TimeApp.zip
+
+Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
+    SHA256: 13A132F766D72A223BBFA955FD928B45F6291D717D63164352AB430160D4CF5C

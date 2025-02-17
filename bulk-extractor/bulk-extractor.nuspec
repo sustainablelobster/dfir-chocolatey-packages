@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>bulk-extractor</id>
+    <version>1.5.5</version>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/bulk-extractor</packageSourceUrl>
+    <owners>sustainablelobster</owners>
+    <title>bulk_extractor</title>
+    <authors>Simson Garfinkel</authors>
+    <projectUrl>https://github.com/simsong/bulk_extractor</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/18ff9082fc9b7fca292c8a47028cf18dd1683426/icons/bulk-extractor.svg</iconUrl>
+    <copyright>2020 Simson L. Garfinkel</copyright>
+    <licenseUrl>https://github.com/simsong/bulk_extractor/blob/main/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/simsong/bulk_extractor</projectSourceUrl>
+    <docsUrl>https://github.com/simsong/bulk_extractor/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/simsong/bulk_extractor/issues</bugTrackerUrl>
+    <tags>bulk-extractor bulk_extractor forensics dfir</tags>
+    <summary>bulk_extractor is a high-performance digital forensics exploitation tool.</summary>
+    <description><![CDATA[scans any kind of input (disk images, files, directories of files, etc)
+and extracts structured information such as email addresses, credit card numbers,
+JPEGs and JSON snippets without parsing the file
+system or file system structures. The results are stored in text files that are easily
+inspected, searched, or used as inputs for other forensic processing. bulk_extractor also creates
+histograms of certain kinds of features that it finds, such as Google search terms and email addresses,
+as previous research has shown that such histograms are especially useful in investigative and law enforcement applications.
+
+Unlike other digital forensics tools, `bulk_extractor` probes every byte of data to see if it is the start of a
+sequence that can be decompressed or otherwise decoded. If so, the
+decoded data are recursively re-examined. As a result, `bulk_extractor` can find things like BASE64-encoded JPEGs and
+compressed JSON objects that traditional carving tools miss.
+]]></description>
+    <releaseNotes>https://github.com/simsong/bulk_extractor/releases</releaseNotes>
+    <dependencies>
+      <dependency id="javaruntime" version="8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

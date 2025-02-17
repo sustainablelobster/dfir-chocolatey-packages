@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>evtxecmd</id>
+    <version>1.5.1</version>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/evtxecmd</packageSourceUrl>
+    <owners>sustainablelobster</owners>
+    <title>EvtxECmd</title>
+    <authors>Eric Zimmerman</authors>
+    <projectUrl>https://ericzimmerman.github.io/#!index.md</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/92a37dbf8bdfe9c23ab2f39b9ad240866668b1c1/icons/evtxecmd.png</iconUrl>
+    <copyright>2019 Eric Zimmerman</copyright>
+    <licenseUrl>https://github.com/EricZimmerman/evtx/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/EricZimmerman/evtx/tree/master</projectSourceUrl>
+    <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
+    <bugTrackerUrl>https://github.com/EricZimmerman/evtx/issues</bugTrackerUrl>
+    <tags>evtxecmd digital forensics incident response dfir</tags>
+    <summary>Event log (evtx) parser with standardized CSV, XML, and json output! Custom maps, locked file support, and more!</summary>
+    <description><![CDATA[EvtxECmd is a tool created by Eric Zimmerman used to parse event logs from Windows. Versions of Windows from Vista and beyond have utilized the .evtx format, which incorporates XML payloads within the .evtx files. EvtxECmd only parses .evtx files, so if you're dealing with .evt files, EvtxECmd will not parse those particular files.
+
+## EvtxECmd Use Cases
+
+### Law Enforcement
+
+For those in Law Enforcement, this tool is useful for parsing event logs which can provide useful program execution artifacts, NTFS file system artifacts, evidence of USB device connections, and much more.
+
+## Private Sector
+
+For those in the Private Sector, this tool is useful for parsing event logs which can provide useful artifacts relating to RDP sessions, account lockouts, failed logons, and much more.
+]]></description>
+    <dependencies>
+      <dependency id="dotnet-6.0-runtime" version="6.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

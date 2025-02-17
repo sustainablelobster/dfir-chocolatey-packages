@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>volatility3</id>
+    <version>2.11.0</version>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/volatility3</packageSourceUrl>
+    <owners>sustainablelobster</owners>
+    <title>Volatility 3</title>
+    <authors>Volatility Foundation</authors>
+    <projectUrl>https://github.com/volatilityfoundation/volatility3/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/fefc799acfd22af92474fb593fa639e5ab150848/icons/volatility3.png</iconUrl>
+    <copyright>2019 Volatility Foundation</copyright>
+    <licenseUrl>https://github.com/volatilityfoundation/volatility3/blob/develop/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/volatilityfoundation/volatility3/</projectSourceUrl>
+    <docsUrl>https://volatility3.readthedocs.io/en/latest/</docsUrl>
+    <bugTrackerUrl>https://github.com/volatilityfoundation/volatility3/issues</bugTrackerUrl>
+    <tags>volatility3 memory ram forensics dfir</tags>
+    <summary>Volatility is the world's most widely used framework for extracting digital artifacts from volatile memory (RAM) samples.</summary>
+    <description><![CDATA[Volatility is the world's most widely used framework for extracting digital
+artifacts from volatile memory (RAM) samples. The extraction techniques are
+performed completely independent of the system being investigated but offer
+visibility into the runtime state of the system. The framework is intended
+to introduce people to the techniques and complexities associated with
+extracting digital artifacts from volatile memory samples and provide a
+platform for further work into this exciting area of research.
+
+In 2019, the Volatility Foundation released a complete rewrite of the
+framework, Volatility 3. The project was intended to address many of the
+technical and performance challenges associated with the original
+code base that became apparent over the previous 10 years. Another benefit
+of the rewrite is that Volatility 3 could be released under a custom
+license that was more aligned with the goals of the Volatility community,
+the Volatility Software License (VSL). See the 
+[LICENSE](https://www.volatilityfoundation.org/license/vsl-v1.0) file for 
+more details.
+]]></description>
+    <releaseNotes>https://github.com/volatilityfoundation/volatility3/releases</releaseNotes>
+    <dependencies>
+      <dependency id="python3" version="3.7.3" />
+      <dependency id="python3-virtualenv" version="20.17.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>xwfim</id>
+    <version>2.1.0.1</version>
+    <title>XWFIM</title>
+    <authors>Eric Zimmerman</authors>
+    <owners>EricRZimmerman, sustainablelobster</owners>
+    <licenseUrl>https://download.ericzimmermanstools.com/XWFIM.zip</licenseUrl>
+    <projectUrl>https://ericzimmerman.github.io/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/2dcf246296acfa5570084d928f46b731acdb761a/icons/xwfim.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>One click installation and updating of all X-Ways software including Forensics, Imager, and Investigator. Can also build portable installations, and validate installs.</description>
+    <summary>X-Ways Forensics Installation Manager</summary>
+    <releaseNotes>https://binaryforay.blogspot.com/</releaseNotes>
+    <copyright>2021 Eric Zimmerman</copyright>
+    <tags>X-Ways forensics installer</tags>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/xwfim</packageSourceUrl>
+    <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

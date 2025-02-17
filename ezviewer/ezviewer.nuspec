@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ezviewer</id>
+    <version>2.0.0.1</version>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/ezviewer</packageSourceUrl>
+    <owners>sustainablelobster</owners>
+    <title>EZViewer</title>
+    <authors>Eric Zimmerman</authors>
+    <projectUrl>https://ericzimmerman.github.io/#!index.md</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/392f86fe9b5803097d0f1eb35f1f42e80881d964/icons/ezviewer.png</iconUrl>
+    <copyright>2021 Eric Zimmerman</copyright>
+    <licenseUrl>https://download.ericzimmermanstools.com/net6/EZViewer.zip</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
+    <tags>digital forensics incident response dfir</tags>
+    <summary>Standalone, zero dependency viewer for .doc, .docx, .xls, .xlsx, .txt, .log, .rtf, .otd, .htm, .html, .mht, .csv, and .pdf. Any non-supported files are shown in a hex editor (with data interpreter!)</summary>
+    <description><![CDATA[EZViewer is a standalone, zero dependency viewer for .doc, .docx, .xls, .xlsx, .txt, .log, .rtf, .otd, .htm, .html, .mht, .csv, and .pdf. Any non-supported files are shown in a hex editor (with data interpreter!). Please note, this tool is read only and therefore cannot edit any files!
+
+## EZViewer Use Cases
+
+### Law Enforcement
+For those in Law Enforcement, this tool is useful for bringing on site to a search warrant and not having to worry about having a certain application to open a certain file type.
+
+### Private Sector
+For those in the Private Sector, this tool is useful for bringing on site to a client engagement and not having to worry about having a certain application to open a certain file type.
+]]></description>
+    <dependencies>
+      <dependency id="dotnet-6.0-desktopruntime" version="6.0.3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

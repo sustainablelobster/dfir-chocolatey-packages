@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>wxtcmd</id>
+    <version>1.1.0</version>
+    <title>WxTCmd</title>
+    <authors>Eric Zimmerman</authors>
+    <owners>EricRZimmerman, sustainablelobster</owners>
+    <licenseUrl>https://github.com/EricZimmerman/WxTCmd/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://ericzimmerman.github.io/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/38cf0c0af537268631c386b0c7c48d278f2e72ee/icons/wxtcmd.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Extracts out various details from Windows 10 Timeline databases.</description>
+    <summary>Windows 10 Timeline database parser</summary>
+    <releaseNotes>https://github.com/EricZimmerman/WxTCmd/releases</releaseNotes>
+    <copyright>2018 Eric Zimmerman</copyright>
+    <tags>Windows 10 Timeline forensics</tags>
+    <projectSourceUrl>https://github.com/EricZimmerman/WxTCmd</projectSourceUrl>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/wxtcmd</packageSourceUrl>
+    <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
+    <dependencies>
+      <dependency id="dotnet-6.0-runtime" version="6.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,10 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Browse to the following page:
+    URL: https://downloads.digitalcorpora.org/downloads/bulk_extractor/
+
+Compare the published SHA256 of bulk_extractor-1.5.5-windowsinstaller.exe to
+the SHA256 of the included installer:
+    SHA256: A410898E3452940C4AAA45BDA6F32FE9447A61864266FF625C1916EE85764A39

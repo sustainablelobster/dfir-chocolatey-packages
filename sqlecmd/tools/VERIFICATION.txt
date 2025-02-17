@@ -1,0 +1,9 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Download zip package:
+    URL: https://download.ericzimmermanstools.com/net6/SQLECmd.zip
+
+Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
+    SHA256: AACB95288D1130A98FD8DF7F38ED1DA2639644A347CEBBBECF1BF7A4F128A1BD

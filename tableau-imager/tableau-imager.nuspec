@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>tableau-imager</id>
+    <version>20.3</version>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/tableau-imager</packageSourceUrl>
+    <owners>sustainablelobster</owners>
+    <title>Tableau Forensic Imager</title>
+    <authors>OpenText</authors>
+    <projectUrl>https://www.opentext.com/products/tableau-download-center?_ga=2.179143076.1660743658.1671589366-261131558.1671589366#tableau-imager</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/4f7c3d6b079bd9e2f25fd4ad6bb960df9b763713/icons/tableau-imager.png</iconUrl>
+    <copyright>2020 OpenText Corporation</copyright>
+    <tags>tableau-imager forensics dfir</tags>
+    <summary>Tableau Forensic Imager (TIM) is Tableau's free forensic imaging software application.</summary>
+    <description>Tableau Forensic Imager (TIM) is Tableau's free forensic imaging software application. Optimized for imaging with Tableau Forensic Bridges, TIM is an intuitive and information-rich application for Microsoft Windows XP, Vista, 7 or later (both 32- and 64-bit versions) built to improve forensic imaging productivity.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

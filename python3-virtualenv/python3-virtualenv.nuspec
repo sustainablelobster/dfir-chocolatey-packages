@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>python3-virtualenv</id>
+    <version>20.29.1</version>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/python3-virtualenv</packageSourceUrl>
+    <owners>sustainablelobster</owners>
+    <title>Virtualenv</title>
+    <authors>Bernat Gabor</authors>
+    <projectUrl>https://virtualenv.pypa.io/en/latest/</projectUrl>
+    <copyright>2020-202x The virtualenv developers</copyright>
+    <licenseUrl>https://github.com/pypa/virtualenv/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/pypa/virtualenv</projectSourceUrl>
+    <docsUrl>https://virtualenv.pypa.io/en/latest/</docsUrl>
+    <bugTrackerUrl>https://github.com/pypa/virtualenv/issues</bugTrackerUrl>
+    <tags>python3-virtualenv python virtual environment venv</tags>
+    <summary>A tool for creating isolated virtual python environments.</summary>
+    <description><![CDATA[virtualenv is a tool to create isolated Python environments. Since Python 3.3, a subset of it has been integrated into the standard library under the venv module. The venv module does not offer all features of this library, to name just a few more prominent:
+- is slower (by not having the app-data seed method),
+- is not as extendable,
+- cannot create virtual environments for arbitrarily installed python versions (and automatically discover these),
+- is not upgrade-able via pip,
+- does not have as rich programmatic API (describe virtual environments without creating them).
+
+The basic problem being addressed is one of dependencies and versions, and indirectly permissions. Imagine you have an application that needs version 1 of LibFoo, but another application requires version 2. How can you use both these libraries? If you install everything into your host python (e.g. python3.8) it’s easy to end up in a situation where two packages have conflicting requirements.
+
+Or more generally, what if you want to install an application and leave it be? If an application works, any change in its libraries or the versions of those libraries can break the application. Also, what if you can’t install packages into the global site-packages directory, due to not having permissions to change the host python environment?
+
+In all these cases, virtualenv can help you. It creates an environment that has its own installation directories, that doesn’t share libraries with other virtualenv environments (and optionally doesn’t access the globally installed libraries either).
+]]></description>
+    <releaseNotes>https://github.com/pypa/virtualenv/releases</releaseNotes>
+    <dependencies>
+      <dependency id="python3" version="3.8" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

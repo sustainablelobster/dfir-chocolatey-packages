@@ -1,0 +1,9 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Download zip package:
+    URL: https://github.com/Neo23x0/Loki/releases/download/v0.51.0/loki_0.51.0.zip
+
+Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
+    SHA256: 32D340D982B91616BD966DA8A5807D4EAC7FEBB1D0E87DA1ACEE7CD8C9D295AE

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>sdbexplorer</id>
+    <version>2.0.0.1</version>
+    <title>SDB Explorer</title>
+    <authors>Eric Zimmerman</authors>
+    <owners>EricRZimmerman, sustainablelobster</owners>
+    <licenseUrl>https://download.ericzimmermanstools.com/net6/SDBExplorer.zip</licenseUrl>
+    <projectUrl>https://ericzimmerman.github.io/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/a3ab875a80c3dd2c98702dfd067a92cad52c2954/icons/sdbexplorer.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SDB Explorer parses and allows for interacting with contents of SDB databases. View binary patch contents, dump strings, and more.</description>
+    <summary>GUI SDB parser</summary>
+    <releaseNotes>https://binaryforay.blogspot.com/</releaseNotes>
+    <copyright>2021 Eric Zimmerman</copyright>
+    <tags>sdb shim appcompat forensics</tags>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/sdbexplorer</packageSourceUrl>
+    <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
+    <dependencies>
+      <dependency id="dotnet-6.0-desktopruntime" version="6.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

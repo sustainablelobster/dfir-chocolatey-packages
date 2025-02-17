@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>rla</id>
+    <version>2.1.0</version>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/rla</packageSourceUrl>
+    <owners>sustainablelobster</owners>
+    <title>RLA</title>
+    <authors>Eric Zimmerman</authors>
+    <projectUrl>https://ericzimmerman.github.io/#!index.md</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/2fc1961e19b9918457bd7310e959891ffb228e51/icons/rla.png</iconUrl>
+    <copyright>2015 Eric Zimmerman</copyright>
+    <licenseUrl>https://github.com/EricZimmerman/RECmd/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/EricZimmerman/RECmd/tree/master</projectSourceUrl>
+    <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
+    <bugTrackerUrl>https://github.com/EricZimmerman/RECmd/issues</bugTrackerUrl>
+    <tags>digital forensics incident response dfir</tags>
+    <summary>Replay transaction logs and update Registry hives so they are no longer dirty. Useful when tools do not know how to handle transaction logs.</summary>
+    <description><![CDATA[RLA is a tool that can be used to repair dirty Windows Registry hives. This is particularly useful when using tools that don't handle dirty Registry hives themselves.
+
+## RLA Use Cases
+This tool is useful for replaying Registry transaction logs which will ensure you’re parsing all possible data within a given Registry hive.
+]]></description>
+    <dependencies>
+      <dependency id="dotnet-6.0-runtime" version="6.0.11" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,12 @@
+api_key
+*.exe
+*.msi
+*.nupkg
+tmp/
+_TODO.txt
+Update-AUPackages.md
+Update-Force-Test*
+Update-History.md
+update_info.xml
+update_vars.ps1
+*.zip

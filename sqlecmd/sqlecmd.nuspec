@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>sqlecmd</id>
+    <version>1.1.0</version>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/sqlecmd</packageSourceUrl>
+    <owners>sustainablelobster</owners>
+    <title>SQLECmd</title>
+    <authors>Eric Zimmerman</authors>
+    <projectUrl>https://ericzimmerman.github.io/#!index.md</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/6ebe9d6bf572f486deb104f65335b8ea82334195/icons/sqlecmd.png</iconUrl>
+    <copyright>2021 Eric Zimmerman</copyright>
+    <licenseUrl>https://github.com/EricZimmerman/SQLECmd/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/EricZimmerman/SQLECmd/tree/master</projectSourceUrl>
+    <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
+    <bugTrackerUrl>https://github.com/EricZimmerman/SQLECmd/issues</bugTrackerUrl>
+    <tags>digital forensics incident response dfir</tags>
+    <summary>	Find and process SQLite files according to your needs with maps!</summary>
+    <description><![CDATA[SQLECmd is a tool created by Eric Zimmerman used to parse SQLite databases. SQLite databases will only be parsed if a Map exists for that specific SQLite database.
+
+## SQLECmd Use Cases
+
+### Law Enforcement
+
+For those in Law Enforcement, this tool is useful for parsing SQLite databases which often store common web browser artifacts. SQLECmd can provide as a validation tool to many commonly used forensic suites that parse browsing history, as well. The SQLite queries are available on GitHub and can be modified by the community if ever the database schema evolves enough to where current SQLite queries do not work any longer. Additionally, this tool can be used to parse mobile artifacts which can serve as a validation tool for common mobile forensic suites.
+
+### Private Sector
+
+For those in the Private Sector, this tool is useful for parsing SQLite databases which often store common web browser artifacts.
+]]></description>
+    <dependencies>
+      <dependency id="dotnet-6.0-runtime" version="6.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,9 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Download the release from GitHub:
+    URL: https://github.com/gchq/CyberChef/releases/download/v10.19.4/CyberChef_v10.19.4.zip
+Take the SHA256 of downloaded release zip and compare it to the SHA256
+of the embedded zip package:
+    SHA256: 3788B29FFB54F5784968FCF998286F0F75670BE8A92E40EB683743EBAAB97510

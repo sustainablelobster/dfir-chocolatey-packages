@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>shellbagsexplorer</id>
+    <version>2.0.0.1</version>
+    <title>ShellBags Explorer</title>
+    <authors>Eric Zimmerman</authors>
+    <owners>EricRZimmerman, sustainablelobster</owners>
+    <licenseUrl>https://download.ericzimmermanstools.com/net6/ShellBagsExplorer.zip</licenseUrl>
+    <projectUrl>https://ericzimmerman.github.io/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/01fe7aa4908fa75076a2ad8195b7361e595398e4/icons/shellbagsexplorer.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Comprehensive support for all known shell item types, exporting, filtering, sorting, file system detecion, and more!</description>
+    <summary>ShellBags Explorer allows for visually viewing and interacting with shell bags found in usrclass.dat and ntuser.dat Registry hives</summary>
+    <releaseNotes>https://binaryforay.blogspot.com/</releaseNotes>
+    <copyright>2021 Eric Zimmerman</copyright>
+    <tags>registry shellbag BagMRU shellitem forensicss</tags>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/shellbagsexplorer</packageSourceUrl>
+    <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
+    <dependencies>
+      <dependency id="dotnet-6.0-desktopruntime" version="6.0.22" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

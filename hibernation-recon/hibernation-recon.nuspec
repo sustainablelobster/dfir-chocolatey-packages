@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>hibernation-recon</id>
+    <version>1.2.3.87</version>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/hibernation-recon</packageSourceUrl>
+    <owners>sustainablelobster</owners>
+    <title>Hibernation Recon</title>
+    <authors>Arsenal Recon</authors>
+    <projectUrl>https://arsenalrecon.com/products/hibernation-recon</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/f333d2d87b2f13e1190dffbc6368777ca5d4ec69/icons/hibernation-recon.png</iconUrl>
+    <copyright>2015 Arsenal Recon</copyright>
+    <docsUrl>https://arsenalrecon.com/products/hibernation-recon/faqs</docsUrl>
+    <tags>hibernation-recon forensics dfir</tags>
+    <summary>Hibernation Recon extracts forensic data from Windows hibernation files.</summary>
+    <description>The exploitation of Windows hibernation files to “look back in time” and uncover compelling evidence is crucial to digital forensics practitioners. Hibernation Recon not only supports active memory reconstruction from Windows XP, Vista, 7, 8/8.1, 10, and 11 hibernation files, but also extracts massive volumes of information from the multiple types (and levels) of slack space that may exist within them. Additional features of Hibernation Recon include the automatic recovery of valuable NTFS metadata and parallel processing of multiple hibernation files. Digital forensics practitioners cannot afford to analyze electronic evidence without extracting maximum value from Windows hibernation files.</description>
+    <releaseNotes>https://arsenalrecon.com/products/hibernation-recon/downloads</releaseNotes>
+    <dependencies>
+      <dependency id="megatools" version="1.11.0.20220919" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

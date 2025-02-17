@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>amcacheparser</id>
+    <version>1.5.2</version>
+    <title>AmcacheParser</title>
+    <authors>Eric Zimmerman</authors>
+    <owners>EricRZimmerman, sustainablelobster</owners>
+    <licenseUrl>https://github.com/EricZimmerman/AmcacheParser/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://ericzimmerman.github.io/#!index.md</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/864089512f3879277e683056e59c2f05797cd817/icons/amcacheparser.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Amcache parser with advanced features such as whitelisting, data reduction, and various export formats.</description>
+    <summary>Amcache.hve parser</summary>
+    <releaseNotes>https://github.com/EricZimmerman/AmcacheParser/releases</releaseNotes>
+    <copyright>2015 Eric Zimmerman</copyright>
+    <tags>registry amcache execution forensics</tags>
+    <projectSourceUrl>https://github.com/EricZimmerman/AmcacheParser</projectSourceUrl>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/amcacheparser</packageSourceUrl>
+    <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
+    <dependencies>
+      <dependency id="dotnet-6.0-runtime" version="6.0.15" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>lecmd</id>
+    <version>1.5.1</version>
+    <title>LECmd</title>
+    <authors>Eric Zimmerman</authors>
+    <owners>EricRZimmerman, sustainablelobster</owners>
+    <licenseUrl>https://github.com/EricZimmerman/LECmd/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://ericzimmerman.github.io/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/852bec42a4a7269c6d024452de204dfd990af596/icons/lecmd.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>LECmd supports all lnk file structures and exports to a wide variety of formats.</description>
+    <summary>lnk (Windows shortcut) parser</summary>
+    <releaseNotes>https://github.com/EricZimmerman/LECmd/releases</releaseNotes>
+    <copyright>2018 Eric Zimmerman</copyright>
+    <tags>shortcut lnk forensics</tags>
+    <projectSourceUrl>https://github.com/EricZimmerman/LECmd</projectSourceUrl>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/lecmd</packageSourceUrl>
+    <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
+    <dependencies>
+      <dependency id="dotnet-6.0-runtime" version="6.0.20" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

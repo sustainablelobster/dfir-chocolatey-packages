@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>jumplistexplorer</id>
+    <version>2.0.0.1</version>
+    <title>JumpList Explorer</title>
+    <authors>Eric Zimmerman</authors>
+    <owners>EricRZimmerman, sustainablelobster</owners>
+    <licenseUrl>https://download.ericzimmermanstools.com/net6/JumpListExplorer.zip</licenseUrl>
+    <projectUrl>https://ericzimmerman.github.io/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/b60e585bdde86a774fcfee8ea72720fc4bc3c41a/icons/jumplistexplorer.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>JumpList Explorer parses and allows for exporting details from custom and automatic destination jumplists. Allows for dumping all lnk files from jumplists, and more.</description>
+    <summary>GUI jumplist parser with Windows 10 support</summary>
+    <releaseNotes>https://binaryforay.blogspot.com/</releaseNotes>
+    <copyright>2021 Eric Zimmerman</copyright>
+    <tags>jumplist lnk olecf forensics</tags>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/jumplistexplorer</packageSourceUrl>
+    <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
+    <dependencies>
+      <dependency id="dotnet-6.0-desktopruntime" version="6.0.23" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

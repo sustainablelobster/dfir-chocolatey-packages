@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>pecmd</id>
+    <version>1.5.1</version>
+    <title>PECmd</title>
+    <authors>Eric Zimmerman</authors>
+    <owners>EricRZimmerman, sustainablelobster</owners>
+    <licenseUrl>https://github.com/EricZimmerman/PECmd/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://ericzimmerman.github.io/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/8163196005009026704d0030d1dcfeae1dad0625/icons/pecmd.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Fully parses Windows prefetch files (XP-Windows 10) and allows for exporting in a wide variety of formats, keyword hits in contents, etc. Windows 10 prefetch support requires running on Windows 8 or later.</description>
+    <summary>Windows prefetch parser</summary>
+    <releaseNotes>https://github.com/EricZimmerman/PECmd/releases</releaseNotes>
+    <copyright>2018 Eric Zimmerman</copyright>
+    <tags>prefetch execution forensics</tags>
+    <projectSourceUrl>https://github.com/EricZimmerman/PECmd</projectSourceUrl>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/pecmd</packageSourceUrl>
+    <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
+    <dependencies>
+      <dependency id="dotnet-6.0-runtime" version="6.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

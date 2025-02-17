@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>aleapp-gui</id>
+    <version>3.2.5</version>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/aleapp</packageSourceUrl>
+    <owners>sustainablelobster</owners>
+    <title>ALEAPP-GUI</title>
+    <authors>Alexis Brignoni</authors>
+    <projectUrl>https://github.com/abrignoni/ALEAPP</projectUrl>
+    <copyright>2020 Alexis Brignoni</copyright>
+    <licenseUrl>https://github.com/abrignoni/ALEAPP/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/abrignoni/ALEAPP</projectSourceUrl>
+    <docsUrl>https://github.com/abrignoni/ALEAPP/blob/master/README.md</docsUrl>
+    <mailingListUrl>https://twitter.com/AlexisBrignoni</mailingListUrl>
+    <bugTrackerUrl>https://github.com/abrignoni/ALEAPP/issues</bugTrackerUrl>
+    <tags>aleapp android forensics dfir</tags>
+    <summary>Android Logs Events And Protobuf Parser</summary>
+    <description><![CDATA[ALEAPP can parse logical Android file systems, tar and zip extractions as well as provide reports in html and csv formats.
+
+## Note on VirusTotal detections
+
+This software is packaged using [PyInstaller](https://pyinstaller.org/en/stable/),
+a tool for bundling Python applications into a single executable. Apps packaged
+in this manner are often incorrectly flagged as malware. PyInstaller's core
+developer explains the issue here: https://github.com/pyinstaller/pyinstaller/issues/6754#issuecomment-1100821249
+]]></description>
+    <releaseNotes>https://github.com/abrignoni/ALEAPP/releases/latest</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

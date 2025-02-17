@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>loki-scanner</id>
+    <version>0.51.0</version>
+    <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/loki-scanner</packageSourceUrl>
+    <owners>sustainablelobster</owners>
+    <title>Loki</title>
+    <authors>Florian Roth</authors>
+    <projectUrl>https://github.com/Neo23x0/Loki</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/a49438cc320086b8ddf0bbdf5a61f1823e08d5c5/icons/loki-scanner.png</iconUrl>
+    <copyright>2015 Florian Roth</copyright>
+    <licenseUrl>https://github.com/Neo23x0/Loki/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/Neo23x0/Loki</projectSourceUrl>
+    <docsUrl>https://github.com/Neo23x0/Loki#how-to-run-loki-and-analyse-the-reports</docsUrl>
+    <bugTrackerUrl>https://github.com/Neo23x0/Loki/issues</bugTrackerUrl>
+    <tags>loki-scanner digital forensics incident response dfir</tags>
+    <summary>Simple IOC and Incident Response Scanner </summary>
+    <description><![CDATA[Scanner for Simple Indicators of Compromise
+
+Detection is based on four detection methods:
+
+    1. File Name IOC
+       Regex match on full file path/name
+
+    2. Yara Rule Check
+       Yara signature match on file data and process memory
+
+    3. Hash Check
+       Compares known malicious hashes (MD5, SHA1, SHA256) with scanned files
+       
+    4. C2 Back Connect Check
+       Compares process connection endpoints with C2 IOCs (new since version v.10)
+       
+Additional Checks:
+
+    1. Regin filesystem check (via --reginfs)
+    2. Process anomaly check (based on [Sysforensics](http://goo.gl/P99QZQ)
+    3. SWF decompressed scan (new since version v0.8)
+    4. SAM dump check
+
+The Windows binary is compiled with PyInstaller and should run as x86 application on both x86 and x64 based systems.
+
+## Note on VirusTotal detections
+
+This software is packaged using [PyInstaller](https://pyinstaller.org/en/stable/),
+a tool for bundling Python applications into a single executable. Apps packaged
+in this manner are often incorrectly flagged as malware. PyInstaller's core
+developer explains the issue here: https://github.com/pyinstaller/pyinstaller/issues/6754#issuecomment-1100821249
+]]></description>
+    <releaseNotes>https://github.com/Neo23x0/Loki/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

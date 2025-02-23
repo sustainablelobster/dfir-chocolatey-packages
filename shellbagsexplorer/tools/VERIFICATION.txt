@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://download.ericzimmermanstools.com/net6/ShellBagsExplorer.zip
+    URL: https://download.ericzimmermanstools.com/net9/ShellBagsExplorer.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 8F81E32B723115462D6245357D1C3D8A41FFF2926C263C857A086765CE3F7AD2
+    SHA256: 750C2B298945EC871F134804F39334BB764BBFB1BB7D0615E5F08A8AE2694A43

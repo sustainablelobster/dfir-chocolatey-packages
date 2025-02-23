@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>rbcmd</id>
-    <version>1.6.1</version>
+    <version>1.6.1.1</version>
     <title>RBCmd</title>
     <authors>Eric Zimmerman</authors>
     <owners>EricRZimmerman, sustainablelobster</owners>
     <licenseUrl>https://github.com/EricZimmerman/RBCmd/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://ericzimmerman.github.io/</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/61b27d845ad36bf6a89488aed82ec872f46d4230/icons/rbcmd.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/refs/heads/master/rbcmd/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description><![CDATA[RBCmd is a tool created by Eric Zimmerman used to parse Windows Recycle Bin artifacts.
 
@@ -30,7 +30,7 @@ For those in the Private Sector, this tool is useful for parsing Recycle Bin fil
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/rbcmd</packageSourceUrl>
     <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
     <dependencies>
-      <dependency id="dotnet-6.0-runtime" version="6.0.6" />
+      <dependency id="dotnet-9.0-runtime" version="9.0.0" />
     </dependencies>
   </metadata>
   <files>

@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://download.ericzimmermanstools.com/net6/MFTECmd.zip
+    URL: https://download.ericzimmermanstools.com/net9/MFTECmd.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 55A9E775AA87F20ADD37D410EA02B195A19FF95860141081C209E82D49EFF603
+    SHA256: 1EA6179A05FEFB3698D207CF0EF3C7E5C811575F0C5629DEB5B4D4235470EA39

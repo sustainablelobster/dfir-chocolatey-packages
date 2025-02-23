@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>sumecmd</id>
-    <version>1.0.0</version>
+    <version>1.0.0.1</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/sumecmd</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>SumECmd</title>
     <authors>Eric Zimmerman</authors>
     <projectUrl>https://ericzimmerman.github.io/#!index.md</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/616b6fba61027b4cc6649fe56980cebcd3f2ce49/icons/sumecmd.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/refs/heads/master/sumecmd/icon.png</iconUrl>
     <copyright>2021 Eric Zimmerman</copyright>
     <licenseUrl>https://github.com/EricZimmerman/Sum/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -31,7 +31,7 @@ For those in Law Enforcement, SumECmd may not have an immediate use unless the s
 For those in the Private Sector, SumECmd can provide helpful information regarding which compromised accounts have authenticated where and when within a Domain. Additionally, having visibility into the DNS history of a Domain for the current year and previous 2 years is incredibly helpful when trying to figure out which IP address resolved to which host when.
 ]]></description>
     <dependencies>
-      <dependency id="dotnet-6.0-runtime" version="6.0.1" />
+      <dependency id="dotnet-9.0-runtime" version="9.0.0" />
     </dependencies>
   </metadata>
   <files>

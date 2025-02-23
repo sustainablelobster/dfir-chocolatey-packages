@@ -13,7 +13,7 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $LatestReleasePage = Invoke-WebRequest -UseBasicParsing `
             -Uri 'https://raw.githack.com/EricZimmerman/ericzimmerman.github.io/master/index.md'
-    if ($LatestReleasePage.Content -notmatch 'SBECmd.*&vert;\s*\[([\d.]+)\]\((.*/net6/SBECmd.zip)\)') {
+    if ($LatestReleasePage.Content -notmatch 'SBECmd.*&vert;\s*\[([\d.]+)\]\((.*/net9/SBECmd.zip)\)') {
         throw "Unable to find tool info"
     }
 

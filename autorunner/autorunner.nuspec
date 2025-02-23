@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>autorunner</id>
-    <version>0.0.16</version>
+    <version>0.0.16.1</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/autorunner</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>Autorunner</title>
     <authors>Woanware</authors>
     <projectUrl>https://github.com/woanware/autorunner</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/sustainablelobster/dfir-chocolatey-packages/766fca0dd4fbd3bbfcebcd526e2db3657cb91cdf/icons/autorunner.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/refs/heads/master/autorunner/icon.png</iconUrl>
     <copyright>2019 Woanware</copyright>
     <projectSourceUrl>https://github.com/woanware/autorunner</projectSourceUrl>
     <docsUrl>https://github.com/woanware/autorunner/blob/master/Documents/Help.md</docsUrl>

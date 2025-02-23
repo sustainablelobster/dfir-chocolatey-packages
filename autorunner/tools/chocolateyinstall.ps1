@@ -17,4 +17,4 @@ $packageArgs = @{
 Install-ChocolateyZipPackage @packageArgs
 $SigcheckPath = (Get-Command -Name 'sigcheck64.exe').Path
 $SigcheckSymlinkPath = Join-Path -Path $ToolsDir -ChildPath 'Tools\sigcheck.exe'
-cmd.exe /C mklink "$SigcheckSymlinkPath" "$SigcheckPath" # Can't use "New-Item -ItemType 'SymbolicLink'" in test enviroment
+cmd.exe /C mklink "$SigcheckSymlinkPath" "$SigcheckPath" # Can't use "New-Item -ItemType 'SymbolicLink'" in test environment

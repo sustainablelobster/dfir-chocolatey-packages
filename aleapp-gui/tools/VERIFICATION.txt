@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://github.com/abrignoni/ALEAPP/releases/download/v3.2.5/aleappGUI-3.2.5-Windows.zip
+    URL: https://github.com/abrignoni/ALEAPP/releases/download/v3.3.0/aleappGUI-v3.3.0-Windows.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 799960E5DCCEDB43830B2132EF0AD7B19A8C5DBD6CAC8EB6E15F33BBFB0601F6
+    SHA256: C7FF67E820A956ED718748D75C6B9F34EE2A7B3AAEEA7FD15B5846181C9EEE8B

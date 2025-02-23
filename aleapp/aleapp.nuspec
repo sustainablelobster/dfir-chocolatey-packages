@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>aleapp</id>
-    <version>3.2.5</version>
+    <version>3.3.0</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/aleapp</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>ALEAPP</title>

@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://download.ericzimmermanstools.com/net6/rla.zip
+    URL: https://download.ericzimmermanstools.com/net9/rla.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 8967B60EA056690134E60963998E871C35F7046B53F833C9FF19A98276FDD40F
+    SHA256: A0FC236D60C73FAD6A0310BBA11C1376E8A1D9281E9FC6B7D1703311A6C980AF

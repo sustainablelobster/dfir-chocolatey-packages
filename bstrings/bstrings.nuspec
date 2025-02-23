@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>bstrings</id>
-    <version>1.5.3</version>
+    <version>1.5.3.1</version>
     <title>bstrings</title>
     <authors>Eric Zimmerman</authors>
     <owners>EricRZimmerman, sustainablelobster</owners>
     <licenseUrl>https://github.com/EricZimmerman/bstrings/blob/master/LICENSE.md</licenseUrl>
     <projectUrl>https://ericzimmerman.github.io/</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/ee6d2f31b9d1051fe0c3ab991cc71da08ebe3eb2/icons/bstrings.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/refs/heads/master/bstrings/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Contains built in regex for searching for common things like URLs, emails, IPs, and more. Very fast and works against files of any size</description>
     <summary>bstrings is a better strings utility</summary>
@@ -19,7 +19,7 @@
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/bstrings</packageSourceUrl>
     <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
     <dependencies>
-      <dependency id="dotnet-6.0-runtime" version="6.0.3" />
+      <dependency id="dotnet-9.0-runtime" version="9.0.0" />
     </dependencies>
   </metadata>
   <files>

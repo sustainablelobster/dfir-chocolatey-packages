@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://download.ericzimmermanstools.com/net6/JLECmd.zip
+    URL: https://download.ericzimmermanstools.com/net9/JLECmd.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 5897B96A8A34719304D7C8B287CEB15A6CA50AB565D7E1028F61AE3095E8BFEB
+    SHA256: 15C5AA37EA7D81E21183343396296EDE7292F4E2151949C104E978DC68F832F3

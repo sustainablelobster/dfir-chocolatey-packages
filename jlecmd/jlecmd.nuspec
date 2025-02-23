@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>jlecmd</id>
-    <version>1.5.1</version>
+    <version>1.5.1.1</version>
     <title>JLECmd</title>
     <authors>Eric Zimmerman</authors>
     <owners>EricRZimmerman, sustainablelobster</owners>
     <licenseUrl>https://github.com/EricZimmerman/JLECmd/blob/master/license</licenseUrl>
     <projectUrl>https://ericzimmerman.github.io/</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/dca21648b6a3d3bc3b241feecdcabf5a0b704d68/icons/jlecmd.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/refs/heads/master/jlecmd/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>JLECmd parses and allows for exporting details from custom and automatic destination jumplists. Allows for dumping all lnk files from jumplists, and more.</description>
     <summary>Command line jumplist parser with Windows 10 support</summary>
@@ -19,7 +19,7 @@
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/jlecmd</packageSourceUrl>
     <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
     <dependencies>
-      <dependency id="dotnet-6.0-runtime" version="6.0.23" />
+      <dependency id="dotnet-9.0-runtime" version="9.0.0" />
     </dependencies>
   </metadata>
   <files>

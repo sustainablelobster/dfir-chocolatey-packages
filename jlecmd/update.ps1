@@ -13,7 +13,7 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $LatestReleasePage = Invoke-WebRequest -UseBasicParsing `
             -Uri 'https://raw.githack.com/EricZimmerman/ericzimmerman.github.io/master/index.md'
-    if ($LatestReleasePage.Content -notmatch 'JLECmd.*&vert;\s*\[([\d.]+)\]\((.*/net6/JLECmd.zip)\)') {
+    if ($LatestReleasePage.Content -notmatch 'JLECmd.*&vert;\s*\[([\d.]+)\]\((.*/net9/JLECmd.zip)\)') {
         throw "Unable to find tool info"
     }
 

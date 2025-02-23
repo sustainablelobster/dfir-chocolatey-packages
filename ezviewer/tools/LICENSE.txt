@@ -1,4 +1,4 @@
-﻿From: https://download.ericzimmermanstools.com/net6/EZViewer.zip
+﻿From: https://download.ericzimmermanstools.com/net9/EZViewer.zip
 
 LICENSE
 

@@ -27,4 +27,4 @@ function global:au_BeforeUpdate {
     Get-RemoteFiles -NoSuffix -Purge
 }
 
-Update-Package -ChecksumFor 'none' -NoCheckChocoVersion
+Update-Package -ChecksumFor 'none'

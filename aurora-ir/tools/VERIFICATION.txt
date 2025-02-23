@@ -3,8 +3,8 @@ VERIFICATION
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
-Download hindsight.exe:
+Download zip file:
     URL: https://github.com/cyb3rfox/Aurora-Incident-Response/releases/download/0.6.6/Aurora-win32-x64-0.6.6.zip
 
-Compare the SHA256 hash of the downloaded file with that of the embedded exe file:
+Compare the SHA256 hash of the downloaded file with that of the embedded zip file:
     SHA256: 293471F8248A0A7BD8CEBB16E7D9253E43CE810AC5755E2E707C8863CA4D6362

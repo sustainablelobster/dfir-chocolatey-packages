@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>aurora-ir</id>
-    <version>0.6.6</version>
+    <version>0.6.6.1</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/aurora-ir</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>Aurora</title>
     <authors>Mathias Fuchs, CyberFox</authors>
     <projectUrl>https://github.com/cyb3rfox/Aurora-Incident-Response</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/98609c0a7f602d64c5a4a5df443dcc202441895b/icons/aurora-ir.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/62badaafb38b3b4d53f5ab988292c8120ee9b703/aurora-ir/icon.png</iconUrl>
     <copyright>2018-2021 Mathias Fuchs</copyright>
     <licenseUrl>https://github.com/cyb3rfox/Aurora-Incident-Response/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>sqlecmd</id>
-    <version>1.1.0</version>
+    <version>1.1.0.1</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/sqlecmd</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>SQLECmd</title>
     <authors>Eric Zimmerman</authors>
     <projectUrl>https://ericzimmerman.github.io/#!index.md</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/6ebe9d6bf572f486deb104f65335b8ea82334195/icons/sqlecmd.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/refs/heads/master/sqlecmd/icon.png</iconUrl>
     <copyright>2021 Eric Zimmerman</copyright>
     <licenseUrl>https://github.com/EricZimmerman/SQLECmd/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -31,7 +31,7 @@ For those in Law Enforcement, this tool is useful for parsing SQLite databases w
 For those in the Private Sector, this tool is useful for parsing SQLite databases which often store common web browser artifacts.
 ]]></description>
     <dependencies>
-      <dependency id="dotnet-6.0-runtime" version="6.0.1" />
+      <dependency id="dotnet-9.0-runtime" version="9.0.0" />
     </dependencies>
   </metadata>
   <files>

@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://download.ericzimmermanstools.com/net6/TimelineExplorer.zip
+    URL: https://download.ericzimmermanstools.com/net9/TimelineExplorer.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 9E6F008102FCF62148856DAD03F310B11B4C586495985FD3D3E333497C6FEE2B
+    SHA256: 46DAD856892D5EB21A3A2C4168A0634ED51E5879A9286EA77157260282DDFE6C

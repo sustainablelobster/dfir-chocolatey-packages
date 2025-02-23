@@ -1,4 +1,4 @@
-﻿From: https://download.ericzimmermanstools.com/net6/TimelineExplorer.zip
+﻿From: https://download.ericzimmermanstools.com/net9/TimelineExplorer.zip
 
 LICENSE
 

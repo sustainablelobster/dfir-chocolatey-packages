@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>volatility3</id>
-    <version>2.11.0</version>
+    <version>2.11.0.1</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/volatility3</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>Volatility 3</title>
     <authors>Volatility Foundation</authors>
     <projectUrl>https://github.com/volatilityfoundation/volatility3/</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/fefc799acfd22af92474fb593fa639e5ab150848/icons/volatility3.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/refs/heads/master/volatility3/icon.png</iconUrl>
     <copyright>2019 Volatility Foundation</copyright>
     <licenseUrl>https://github.com/volatilityfoundation/volatility3/blob/develop/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

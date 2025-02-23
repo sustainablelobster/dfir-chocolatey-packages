@@ -3,15 +3,15 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>mftexplorer</id>
-    <version>2.0.0.1</version>
+    <version>2.1.0</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/mftexplorer</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>MFTExplorer</title>
     <authors>Eric Zimmerman</authors>
     <projectUrl>https://ericzimmerman.github.io/#!index.md</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/041e157597c6a22cee239ea118cad03691e54709/icons/mftexplorer.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/refs/heads/master/mftexplorer/icon.png</iconUrl>
     <copyright>2021 Eric Zimmerman</copyright>
-    <licenseUrl>https://download.ericzimmermanstools.com/net6/MFTExplorer.zip</licenseUrl>
+    <licenseUrl>https://download.ericzimmermanstools.com/net9/MFTExplorer.zip</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
     <tags>digital forensics incident response dfir</tags>
@@ -19,7 +19,7 @@
     <description><![CDATA[MFT Explorer is a tool created by Eric Zimmerman that can be used by forensic examiners to ingest $MFT files and visually explore the contents. Please note, this tool is not meant to ingest large $MFT files and therefore should be used on smaller $MFTs and purely for educational purposes. Everyday forensic examiners should use MFTECmd to parse $MFT files and export the output to CSV.
 ]]></description>
     <dependencies>
-      <dependency id="dotnet-6.0-desktopruntime" version="6.0.1" />
+      <dependency id="dotnet-9.0-desktopruntime" version="9.0.0" />
     </dependencies>
   </metadata>
   <files>

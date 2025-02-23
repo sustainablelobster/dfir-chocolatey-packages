@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://download.ericzimmermanstools.com/net6/MFTExplorer.zip
+    URL: https://download.ericzimmermanstools.com/net9/MFTExplorer.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 99947E91BBC19E440DE7B1FF7A3557BEED6EE79A3765EB67D58E4369AC711F1F
+    SHA256: 43FBCF955417ACC200939935F9F691051F8A47EB662EFDD1827C7EE5C97B89A8

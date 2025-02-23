@@ -1,4 +1,4 @@
-﻿From: https://download.ericzimmermanstools.com/net6/MFTExplorer.zip
+﻿From: https://download.ericzimmermanstools.com/net9/MFTExplorer.zip
 
 LICENSE
 

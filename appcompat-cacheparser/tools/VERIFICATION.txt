@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://download.ericzimmermanstools.com/net6/AppCompatCacheParser.zip
+    URL: https://download.ericzimmermanstools.com/net9/AppCompatCacheParser.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 9B4B3DDBB4F46A242EC3D96076D99680B1584323F34CF44D8304717136679AFC
+    SHA256: 58B1A999C1F31E6D28FFCC722E49FADF0254A7AD04C48CDE2537A61CCB6D1198

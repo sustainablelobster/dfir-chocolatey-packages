@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>timeapp</id>
-    <version>1.3.2.3</version>
+    <version>1.3.2.4</version>
     <title>TimeApp</title>
     <authors>Eric Zimmerman</authors>
     <owners>EricRZimmerman, sustainablelobster</owners>
     <licenseUrl>https://github.com/EricZimmerman/timeapp/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://ericzimmerman.github.io/</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/c4d1825db898544cdfd1601c328a2ad32a0b0815/icons/timeapp.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/refs/heads/master/timeapp/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>TimeApp is useful for testing when interacting with a system to have a record of when something happened. Recording the screen with TimeApp running allows for going back through a video to compare the actual time with various artifacts in the Registry and elsewhere.</description>
     <summary>TimeApp displays the current and UTC times with millisecond precision</summary>

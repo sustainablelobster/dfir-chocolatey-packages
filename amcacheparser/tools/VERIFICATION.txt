@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://download.ericzimmermanstools.com/net6/AmcacheParser.zip
+    URL: https://download.ericzimmermanstools.com/net9/AmcacheParser.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: C152AA35A7A5ECAE096586A017D5CDC0D4A9BCBFA4AAEBC7F79D5F0DAC83C540
+    SHA256: 4DBCB4ABAADB3479CB5E7348E89CA9967B9C4DBB6469299539AAC012FCA757D2

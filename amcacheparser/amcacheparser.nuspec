@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>amcacheparser</id>
-    <version>1.5.2</version>
+    <version>1.5.2.1</version>
     <title>AmcacheParser</title>
     <authors>Eric Zimmerman</authors>
     <owners>EricRZimmerman, sustainablelobster</owners>
     <licenseUrl>https://github.com/EricZimmerman/AmcacheParser/blob/master/LICENSE.md</licenseUrl>
     <projectUrl>https://ericzimmerman.github.io/#!index.md</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/864089512f3879277e683056e59c2f05797cd817/icons/amcacheparser.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/refs/heads/master/amcacheparser/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Amcache parser with advanced features such as whitelisting, data reduction, and various export formats.</description>
     <summary>Amcache.hve parser</summary>
@@ -19,7 +19,7 @@
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/amcacheparser</packageSourceUrl>
     <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
     <dependencies>
-      <dependency id="dotnet-6.0-runtime" version="6.0.15" />
+      <dependency id="dotnet-9.0-runtime" version="9.0.0" />
     </dependencies>
   </metadata>
   <files>

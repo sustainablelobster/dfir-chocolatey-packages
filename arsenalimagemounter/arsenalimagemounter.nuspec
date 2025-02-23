@@ -9,7 +9,7 @@
     <title>Arsenal Image Mounter</title>
     <authors>Arsenal Recon</authors>
     <projectUrl>https://arsenalrecon.com/products/arsenal-image-mounter</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/f93b7cd20daa8e19d718ae2f4e799010f41561b9/icons/arsenal-image-mounter.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/5786cfc9fb73456c08b96d93f78a1994e24d0a96/arsenalimagemounter/icon.png</iconUrl>
     <copyright>2015 Arsenal Recon</copyright>
     <licenseUrl>https://github.com/ArsenalRecon/Arsenal-Image-Mounter/blob/master/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

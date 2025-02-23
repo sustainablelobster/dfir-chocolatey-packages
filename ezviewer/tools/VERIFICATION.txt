@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://download.ericzimmermanstools.com/net6/EZViewer.zip
+    URL: https://download.ericzimmermanstools.com/net9/EZViewer.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 86A27BF8F4744D283C33D7321AD8A510E6F4067EC776CFDF1CC4748A0684072D
+    SHA256: 35EDAF1C2D7D344905D1FAFB37F0B2C7742CD71F90600DE99449D66776F3D9A0

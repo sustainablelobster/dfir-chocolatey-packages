@@ -3,15 +3,15 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ezviewer</id>
-    <version>2.0.0.1</version>
+    <version>2.1.0</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/ezviewer</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>EZViewer</title>
     <authors>Eric Zimmerman</authors>
     <projectUrl>https://ericzimmerman.github.io/#!index.md</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/392f86fe9b5803097d0f1eb35f1f42e80881d964/icons/ezviewer.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/refs/heads/master/ezviewer/icon.png</iconUrl>
     <copyright>2021 Eric Zimmerman</copyright>
-    <licenseUrl>https://download.ericzimmermanstools.com/net6/EZViewer.zip</licenseUrl>
+    <licenseUrl>https://download.ericzimmermanstools.com/net9/EZViewer.zip</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
     <tags>digital forensics incident response dfir</tags>
@@ -27,7 +27,7 @@ For those in Law Enforcement, this tool is useful for bringing on site to a sear
 For those in the Private Sector, this tool is useful for bringing on site to a client engagement and not having to worry about having a certain application to open a certain file type.
 ]]></description>
     <dependencies>
-      <dependency id="dotnet-6.0-desktopruntime" version="6.0.3" />
+      <dependency id="dotnet-9.0-desktopruntime" version="9.0.0" />
     </dependencies>
   </metadata>
   <files>

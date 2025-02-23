@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>cyberchef</id>
-    <version>10.19.4</version>
+    <version>10.19.4.1</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/cyberchef</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>CyberChef</title>
     <authors>GCHQ</authors>
     <projectUrl>https://gchq.github.io/CyberChef/</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/d2fe004b45e875a6c4a73085d28f8ab61e3ce184/icons/cyberchef.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/refs/heads/master/cyberchef/icon.png</iconUrl>
     <copyright>2016 Crown Copyright</copyright>
     <licenseUrl>https://github.com/gchq/CyberChef/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

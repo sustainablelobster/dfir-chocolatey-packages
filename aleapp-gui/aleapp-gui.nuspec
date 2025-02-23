@@ -9,6 +9,7 @@
     <title>ALEAPP-GUI</title>
     <authors>Alexis Brignoni</authors>
     <projectUrl>https://github.com/abrignoni/ALEAPP</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/refs/heads/master/aleapp-gui/icon.png</iconUrl>
     <copyright>2020 Alexis Brignoni</copyright>
     <licenseUrl>https://github.com/abrignoni/ALEAPP/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

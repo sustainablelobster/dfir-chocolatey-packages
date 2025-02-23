@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>recentfilecacheparser</id>
-    <version>1.5.1</version>
+    <version>1.5.1.1</version>
     <title>RecentFileCacheParser</title>
     <authors>Eric Zimmerman</authors>
     <owners>EricRZimmerman, sustainablelobster</owners>
     <licenseUrl>https://github.com/EricZimmerman/RecentFileCacheParser/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://ericzimmerman.github.io/</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/b8eb16e160165f79d5846d67911a3da64b602b64/icons/recentfilecacheparser.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/refs/heads/master/recentfilecacheparser/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description><![CDATA[RecentFileCacheParser is a tool created by Eric Zimmerman used to parse the RecentFileCache. The RecentFileCache can be located at C:\Windows\AppCompat\Programs\RecentFileCache.bcf.
 ]]></description>
@@ -20,7 +20,7 @@
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/recentfilecacheparser</packageSourceUrl>
     <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
     <dependencies>
-      <dependency id="dotnet-6.0-runtime" version="6.0.5" />
+      <dependency id="dotnet-9.0-runtime" version="9.0.0" />
     </dependencies>
   </metadata>
   <files>

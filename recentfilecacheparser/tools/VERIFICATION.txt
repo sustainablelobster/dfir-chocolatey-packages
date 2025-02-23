@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://download.ericzimmermanstools.com/net6/RecentFileCacheParser.zip
+    URL: https://download.ericzimmermanstools.com/net9/RecentFileCacheParser.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 2B9EB1946BB3F58D2F61AB44671AC46FE4B0DD75C70972CB468F79844455DF7F
+    SHA256: CAEDC350C64DC5F14F5AE1E6C25D9ADFABDFEB51411F176653D6B11281F06B17

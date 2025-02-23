@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>hibernation-recon</id>
-    <version>1.2.3.87</version>
+    <version>1.2.3.88</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/hibernation-recon</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>Hibernation Recon</title>
     <authors>Arsenal Recon</authors>
     <projectUrl>https://arsenalrecon.com/products/hibernation-recon</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/f333d2d87b2f13e1190dffbc6368777ca5d4ec69/icons/hibernation-recon.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/refs/heads/master/hibernation-recon/icon.png</iconUrl>
     <copyright>2015 Arsenal Recon</copyright>
     <docsUrl>https://arsenalrecon.com/products/hibernation-recon/faqs</docsUrl>
     <tags>hibernation-recon forensics dfir</tags>

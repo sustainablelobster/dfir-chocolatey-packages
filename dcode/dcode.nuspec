@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>dcode</id>
-    <version>5.6.24123.2</version>
+    <version>5.6.24123.3</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/dcode</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>DCode</title>
     <authors>Digital Detective Group</authors>
     <projectUrl>https://www.digital-detective.net/dcode/</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/ec1b461c51b2eaa95791c5375bf0c1eb56361ea6/icons/dcode.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/refs/heads/master/dcode/icon.png</iconUrl>
     <copyright>2001 - 2022 Digital Detective Group Ltd.</copyright>
     <tags>dcode timestamp decode forensics dfir</tags>
     <summary>A forensic utility for converting data found on desktop and mobile devices into human-readable timestamps.</summary>

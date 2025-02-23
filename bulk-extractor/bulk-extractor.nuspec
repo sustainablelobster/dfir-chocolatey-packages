@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>bulk-extractor</id>
-    <version>1.5.5</version>
+    <version>1.5.5.1</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/bulk-extractor</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>bulk_extractor</title>
     <authors>Simson Garfinkel</authors>
     <projectUrl>https://github.com/simsong/bulk_extractor</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/18ff9082fc9b7fca292c8a47028cf18dd1683426/icons/bulk-extractor.svg</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/c965e6062eefeaa3e972a6851c376b0467b9dd1a/bulk-extractor/icon.svg</iconUrl>
     <copyright>2020 Simson L. Garfinkel</copyright>
     <licenseUrl>https://github.com/simsong/bulk_extractor/blob/main/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

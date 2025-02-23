@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>hindsight</id>
-    <version>2024.10</version>
+    <version>2024.10.0.1</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/hindsight</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>Hindsight</title>
     <authors>Obsidian Forensics, Ryan Benson</authors>
     <projectUrl>https://dfir.blog/hindsight/</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/7a990a7ec2ed2529736a724b68638b0a434fb939/icons/hindsight.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/refs/heads/master/hindsight/icon.png</iconUrl>
     <copyright>2015 Ryan Benson</copyright>
     <licenseUrl>https://github.com/obsidianforensics/hindsight/blob/master/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://download.ericzimmermanstools.com/net6/JumpListExplorer.zip
+    URL: https://download.ericzimmermanstools.com/net9/JumpListExplorer.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 5543774E73F6C42ECE035B95F2E3689A1A52EF89CB04B15512DA264C8BC799F9
+    SHA256: 7C01F2AB828E4A3DA3C06F2F3AB904EA2E266F2EFD82F7B83BA6C872E95B4F62

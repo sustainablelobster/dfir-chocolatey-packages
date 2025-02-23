@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://download.ericzimmermanstools.com/net6/RegistryExplorer.zip
+    URL: https://download.ericzimmermanstools.com/net9/RegistryExplorer.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 50A11BD0A5E44DCEA6469B8564EB3F010B9A8FAF323FF6481222D391DA26887E
+    SHA256: 847E9A673BB170B681B061F58E498B3CCA38B4923D192D2345B47F3BBF423369

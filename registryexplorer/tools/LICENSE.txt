@@ -1,4 +1,4 @@
-﻿From: https://download.ericzimmermanstools.com/net6/RegistryExplorer.zip
+﻿From: https://download.ericzimmermanstools.com/net9/RegistryExplorer.zip
 
 LICENSE
 

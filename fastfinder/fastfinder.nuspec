@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>fastfinder</id>
-    <version>2.0.0</version>
+    <version>2.0.0.1</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/fastfinder</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>FastFinder</title>
     <authors>Jean-Pierre GARNIER</authors>
     <projectUrl>https://github.com/codeyourweb/fastfinder</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/9935f45250c30f29ecf38693e1a5c6cfc46a459b/icons/fastfinder.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/refs/heads/master/fastfinder/icon.png</iconUrl>
     <copyright>2021 Jean-Pierre GARNIER</copyright>
     <licenseUrl>https://github.com/codeyourweb/fastfinder/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

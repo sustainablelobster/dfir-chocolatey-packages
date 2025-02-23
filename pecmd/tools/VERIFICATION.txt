@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://download.ericzimmermanstools.com/net6/PECmd.zip
+    URL: https://download.ericzimmermanstools.com/net9/PECmd.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 518F2CB6F882AFAD3790FA8CF50D48336878A1482FB2A0CCBF2DC47769838F38
+    SHA256: F34E30E53A7B0E05F3418E92C8CA1301CEE762BA4CEA8F382E74ACFFE68D7E1B

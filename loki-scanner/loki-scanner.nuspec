@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>loki-scanner</id>
-    <version>0.51.0</version>
+    <version>0.51.0.1</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/loki-scanner</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>Loki</title>
     <authors>Florian Roth</authors>
     <projectUrl>https://github.com/Neo23x0/Loki</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/a49438cc320086b8ddf0bbdf5a61f1823e08d5c5/icons/loki-scanner.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/refs/heads/master/loki-scanner/icon.png</iconUrl>
     <copyright>2015 Florian Roth</copyright>
     <licenseUrl>https://github.com/Neo23x0/Loki/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

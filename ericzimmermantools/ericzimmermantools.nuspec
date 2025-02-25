@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>ericzimmermantools</id>
-    <version>2.5.2.105</version>
+    <version>2.5.2.106</version>
     <title>Eric Zimmerman's tools</title>
     <authors>Eric Zimmerman</authors>
     <owners>EricRZimmerman, sustainablelobster</owners>
     <licenseUrl>https://github.com/EricZimmerman/Get-ZimmermanTools/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://ericzimmerman.github.io/</projectUrl>
-    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/4fb1b12f1b6a8dc5701a55967c85e7617a27494d/icons/ericzimmermantools.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/sustainablelobster/dfir-chocolatey-packages/refs/heads/master/ericzimmermantools/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Installs tools for lnk files, jump lists, Registry hives, hashing, and much more</description>
     <summary>A single package that installs all of Eric Zimmerman's forensic tools</summary>
@@ -18,35 +18,35 @@
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/ericzimmermantools</packageSourceUrl>
     <docsUrl>https://leanpub.com/eztoolsmanuals</docsUrl>
     <dependencies>
-      <dependency id="amcacheparser" version="1.5.2" />
-      <dependency id="appcompat-cacheparser" version="1.5.1" />
-      <dependency id="bstrings" version="1.5.3" />
-      <dependency id="evtxecmd" version="1.5.1" />
-      <dependency id="ezviewer" version="2.0.0.1" />
-      <dependency id="hasher-erz" version="2.1.0" />
-      <dependency id="iisgeolocate" version="2.2.0.1" />
-      <dependency id="jlecmd" version="1.5.1" />
-      <dependency id="jumplistexplorer" version="2.0.0.1" />
-      <dependency id="lecmd" version="1.5.1" />
-      <dependency id="mftecmd" version="1.3.0" />
-      <dependency id="mftexplorer" version="2.0.0.1" />
-      <dependency id="pecmd" version="1.5.1" />
-      <dependency id="rbcmd" version="1.6.1" />
-      <dependency id="recentfilecacheparser" version="1.5.1" />
-      <dependency id="recmd" version="2.1.0" />
-      <dependency id="registryexplorer" version="2.0.0.1" />
-      <dependency id="rla" version="2.1.0" />
-      <dependency id="sbecmd" version="2.1.0.1" />
-      <dependency id="sdbexplorer" version="2.0.0.1" />
-      <dependency id="shellbagsexplorer" version="2.0.0.1" />
-      <dependency id="sqlecmd" version="1.1.0" />
-      <dependency id="srumecmd" version="1.0.0" />
-      <dependency id="sumecmd" version="1.0.0" />
-      <dependency id="timeapp" version="1.3.2.3" />
-      <dependency id="timelineexplorer" version="2.0.0.1" />
-      <dependency id="vscmount" version="1.5.0.1" />
-      <dependency id="wxtcmd" version="1.1.0" />
-      <dependency id="xwfim" version="2.1.0.1" />
+      <dependency id="amcacheparser" version="1.5.2.1" />
+      <dependency id="appcompat-cacheparser" version="1.5.1.1" />
+      <dependency id="bstrings" version="1.5.3.1" />
+      <dependency id="evtxecmd" version="1.5.1.1" />
+      <dependency id="ezviewer" version="2.1.0" />
+      <dependency id="hasher-erz" version="2.1.0.1" />
+      <dependency id="iisgeolocate" version="2.2.0.2" />
+      <dependency id="jlecmd" version="1.5.1.1" />
+      <dependency id="jumplistexplorer" version="2.1.0" />
+      <dependency id="lecmd" version="1.5.1.1" />
+      <dependency id="mftecmd" version="1.3.0.1" />
+      <dependency id="mftexplorer" version="2.1.0" />
+      <dependency id="pecmd" version="1.5.1.1" />
+      <dependency id="rbcmd" version="1.6.1.1" />
+      <dependency id="recentfilecacheparser" version="1.5.1.1" />
+      <dependency id="recmd" version="2.1.0.1" />
+      <dependency id="registryexplorer" version="2.1.0" />
+      <dependency id="rla" version="2.1.0.1" />
+      <dependency id="sbecmd" version="2.1.0.2" />
+      <dependency id="sdbexplorer" version="2.1.0" />
+      <dependency id="shellbagsexplorer" version="2.1.0" />
+      <dependency id="sqlecmd" version="1.1.0.1" />
+      <dependency id="srumecmd" version="1.0.0.1" />
+      <dependency id="sumecmd" version="1.0.0.1" />
+      <dependency id="timeapp" version="1.3.2.4" />
+      <dependency id="timelineexplorer" version="2.1.0" />
+      <dependency id="vscmount" version="1.5.0.2" />
+      <dependency id="wxtcmd" version="1.1.0.1" />
+      <dependency id="xwfim" version="2.1.0.2" />
     </dependencies>
   </metadata>
   <files />

@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>volatility3</id>
-    <version>2.11.0.1</version>
+    <version>2.11.0</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/volatility3</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>Volatility 3</title>

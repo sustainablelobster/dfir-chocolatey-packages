@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download hindsight.exe:
-    URL: https://github.com/obsidianforensics/hindsight/releases/download/v2024.10/hindsight.exe
+    URL: https://github.com/obsidianforensics/hindsight/releases/download/v2025.03/hindsight.exe
 
 Compare the SHA256 hash of the downloaded file with that of the embedded exe file:
-    SHA256: 25534A105AC105C658F3A0C19BFAD9F2B63A3082C2CEF91F549A9961FA11B965
+    SHA256: 7C3FC422E47A6DEDAF527078CC051CE0A7F43F7AED46E79553D980A9C681AD49

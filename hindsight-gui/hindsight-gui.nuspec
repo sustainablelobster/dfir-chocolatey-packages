@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>hindsight-gui</id>
-    <version>2024.10.0.1</version>
+    <version>2025.03</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/hindsight-gui</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>Hindsight GUI</title>

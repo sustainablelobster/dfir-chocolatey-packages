@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://github.com/abrignoni/iLEAPP/releases/download/v2.2.0/ileapp-v2.2.0-Windows.zip
+    URL: https://github.com/abrignoni/iLEAPP/releases/download/v2.3.0/ileapp-v2.3.0-Windows.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 249293525366A515AC30DB70978AA8A02B4DBC7BD7A4DAF3ED4A5B4807904E5C
+    SHA256: 2E9A38B037FF9C9158C66976D6D504D93240116D8D3E7B4607984CA41A7B174A

@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ileapp</id>
-    <version>2.2.0</version>
+    <version>2.3.0</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/ileapp</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>ileapp</title>

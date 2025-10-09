@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>python3-virtualenv</id>
-    <version>20.34.0</version>
+    <version>20.35.0</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/python3-virtualenv</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>Virtualenv</title>

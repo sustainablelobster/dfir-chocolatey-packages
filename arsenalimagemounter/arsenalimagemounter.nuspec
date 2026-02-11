@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>arsenalimagemounter</id>
-    <version>3.12.331</version>
+    <version>3.12.331.1</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/arsenalimagemounter</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>Arsenal Image Mounter</title>
@@ -43,7 +43,7 @@ Contributors to Arsenal Image Mounter must sign the Arsenal Contributor Agreemen
 ]]></description>
     <releaseNotes>https://arsenalrecon.com/products/arsenal-image-mounter/downloads</releaseNotes>
     <dependencies>
-      <dependency id="dotnet-8.0-desktopruntime" version="8.0" />
+      <dependency id="dotnet-9.0-desktopruntime" version="9.0" />
     </dependencies>
   </metadata>
   <files>

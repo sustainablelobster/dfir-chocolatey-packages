@@ -20,9 +20,12 @@ function global:au_GetLatest {
 }
 
 function global:au_BeforeUpdate {
+    curl.exe 'https://xff.cz/megatools/builds/builds/megatools-1.11.5.20250706-win32.zip' -o 'megatools.zip'
+    Expand-Archive -Path 'megatools.zip' -DestinationPath '.'
+
     $ZipPath = '.\tools\Arsenal-Image-Mounter.zip'
     $TempPath = $ZipPath + '.tmp'
-    megatools dl --no-progress --path="$TempPath" $Latest.MegaUrl
+    . ".\megatools-*-win32\megatools.exe" dl --no-progress --path="$TempPath" $Latest.MegaUrl
     Move-Item -Path $TempPath -Destination $ZipPath -Force
     $Latest.Checksum64 = (Get-FileHash -Path $ZipPath -Algorithm 'SHA256').Hash
 }

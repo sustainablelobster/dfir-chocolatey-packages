@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/RBCmd.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: A380652659549BDA82230543D3FE9DB5D66AF5EFCBDCF09CF9BA10ECEA97CFAA
+    SHA256: E2B5C6BA8929A8731D861577C796763730E303EC2D4DD8D294EE0DE8D5CEB541

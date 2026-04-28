@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/TimelineExplorer.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 46DAD856892D5EB21A3A2C4168A0634ED51E5879A9286EA77157260282DDFE6C
+    SHA256: 4B6FC408599353316637CE7C547A9AC117EFB3162823E12CABD283F0E88A95C2

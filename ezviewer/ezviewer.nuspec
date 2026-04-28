@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ezviewer</id>
-    <version>2.1.0</version>
+    <version>2026.5.0</version>
     <packageSourceUrl>https://github.com/sustainablelobster/dfir-chocolatey-packages/tree/master/ezviewer</packageSourceUrl>
     <owners>sustainablelobster</owners>
     <title>EZViewer</title>

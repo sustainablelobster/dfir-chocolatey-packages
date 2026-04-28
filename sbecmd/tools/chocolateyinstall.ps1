@@ -5,7 +5,7 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   url           = 'https://download.ericzimmermanstools.com/net9/SBECmd.zip'
-  checksum      = '797E31D3641EDE942DA2C338766587B69DCCD36D2FAA5DEEAA55C9D8174A1C4C'
+  checksum      = '88edb98a32baaf68114aa106f25f999e46d387d9d0003d3222a1168cc1b7eb9b'
   checksumType  = 'sha256'
 }
 

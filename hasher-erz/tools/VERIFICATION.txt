@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/hasher.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 1FA5F2E91EED2C819A107A160A56D6CC3E12807355741DB6DDE4395CB6D527BF
+    SHA256: A8A343013D6ED5B6988EBCE1B3A561DF51AB5928BC3A0F489A7E175F8F6F89D4

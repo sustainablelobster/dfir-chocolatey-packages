@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/bstrings.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: CFF8246544554B6F98EF2CBDCD889B363FBF5B9646531F1D1304202BF78EA97D
+    SHA256: 0630D2B3A527F285C8407ECE8DEDDCDDFE92531A25E16C2D5FFD2D60FB90D8C6

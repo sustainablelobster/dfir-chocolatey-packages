@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/rla.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: A0FC236D60C73FAD6A0310BBA11C1376E8A1D9281E9FC6B7D1703311A6C980AF
+    SHA256: 927AE1C7E408C65A3C85297C660E91EB8190052964DC956EEFDEA41BA91237B2

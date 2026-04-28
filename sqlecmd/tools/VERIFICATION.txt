@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/SQLECmd.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: B2489CF55D82276773B521402614F57BA966F7EC1C86DBF98E7287B68F1859B3
+    SHA256: 3473B71083E704C2448DBDFC81988B59543C37A7CAB6865A6AEABA4696721E94

@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/JLECmd.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 15C5AA37EA7D81E21183343396296EDE7292F4E2151949C104E978DC68F832F3
+    SHA256: 7DBE56D7AA53CC3A129AA928B10A6083D7D47158B3F226FCDDBBE695C578113B

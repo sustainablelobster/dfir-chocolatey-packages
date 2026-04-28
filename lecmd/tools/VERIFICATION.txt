@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/LECmd.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 60A1563049DCA01EC88343B5C6EAF0F37E6A6B4016010DB3C03F41FE19215BFA
+    SHA256: B81BC0633E725337E41ABD71AD6E92ADEB863A6CB70F9F87013301E844BCE85A

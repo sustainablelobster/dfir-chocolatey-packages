@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>amcacheparser</id>
-    <version>1.5.2.1</version>
+    <version>2026.5.0</version>
     <title>AmcacheParser</title>
     <authors>Eric Zimmerman</authors>
     <owners>EricRZimmerman, sustainablelobster</owners>

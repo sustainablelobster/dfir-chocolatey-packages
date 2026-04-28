@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/AppCompatCacheParser.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 58B1A999C1F31E6D28FFCC722E49FADF0254A7AD04C48CDE2537A61CCB6D1198
+    SHA256: 4FCBC5A63586DCEB640938413031FAC00B728DE0D4DE9EEA5B3A37A4929861C5

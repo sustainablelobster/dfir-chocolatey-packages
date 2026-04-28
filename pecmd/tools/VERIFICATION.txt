@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/PECmd.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: F34E30E53A7B0E05F3418E92C8CA1301CEE762BA4CEA8F382E74ACFFE68D7E1B
+    SHA256: 5EC42D4E6F24843BD730311F320F9B922547486BE2A16A76E8F693891C3345CA

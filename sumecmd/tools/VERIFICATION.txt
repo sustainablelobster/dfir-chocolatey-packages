@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/SumECmd.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 9F623F7490505F645BA11B238A97F63E5118EFCF7BE719AADC163C447EF52646
+    SHA256: 15C6AAFC9084854824C8703CBF7AEC74B49EB7CD84B82407BF4D90E2BA6BDDF2

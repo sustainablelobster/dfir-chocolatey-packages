@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/RegistryExplorer.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 847E9A673BB170B681B061F58E498B3CCA38B4923D192D2345B47F3BBF423369
+    SHA256: 7CBD0994C0329B24A95CB7E66354D959F0E3FBF5EE9811B63A7D3D898BE4F4F2

@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/RECmd.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: C5D9612369133079F6319741B81C6372DA241255D80A8115B0FF3591D871DA7D
+    SHA256: 6F97CEE65DE76C2C96F72BAF78592B346C657DE13D3C2390BFDA1B4582F0E540

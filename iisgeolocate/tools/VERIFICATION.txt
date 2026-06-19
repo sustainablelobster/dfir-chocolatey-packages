@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/iisGeolocate.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: BD56D73973C009E2E0E663C21E3DBCFD4DFBDE3B39F12368A3AFA5004E460B09
+    SHA256: 3F60C0A2AB391D65924E539F0A77B9377AFE06D906E2DB01DFDE43A60149411D

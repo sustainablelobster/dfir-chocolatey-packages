@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/JumpListExplorer.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 7C01F2AB828E4A3DA3C06F2F3AB904EA2E266F2EFD82F7B83BA6C872E95B4F62
+    SHA256: 68C06CD82E71C004F1982F337C20C022B522FBE64CF1F00F76473F10B235F7CB

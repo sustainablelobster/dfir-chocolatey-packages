@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/EZViewer.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 35EDAF1C2D7D344905D1FAFB37F0B2C7742CD71F90600DE99449D66776F3D9A0
+    SHA256: EBE7074F907BE1A74F995530248332D03FD35BAB648F1204A59ADC1BDF126E9E

@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/SDBExplorer.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 22D7F8EA565F3B29A701A9542094534E4CA190A0D6E7FD95CAEFAABEB0E04568
+    SHA256: C3CA7453F659BB0981BF2A573672B74BFFFEE5985E752CEC35BDA3ABC20080DE

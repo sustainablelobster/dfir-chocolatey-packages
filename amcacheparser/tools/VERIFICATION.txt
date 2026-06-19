@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/AmcacheParser.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 4DBCB4ABAADB3479CB5E7348E89CA9967B9C4DBB6469299539AAC012FCA757D2
+    SHA256: D40D1E7863159DBD9AA3AE826D919EDC490CA33DF84BDE57E86DA848A583AF03

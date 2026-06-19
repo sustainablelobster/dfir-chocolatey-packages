@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/RecentFileCacheParser.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: CAEDC350C64DC5F14F5AE1E6C25D9ADFABDFEB51411F176653D6B11281F06B17
+    SHA256: 906D50CC749D306D5A081F5330F14D52114192947FB4025C8E7BBE81BF250B16

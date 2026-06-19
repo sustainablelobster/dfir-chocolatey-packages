@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/MFTECmd.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 1EA6179A05FEFB3698D207CF0EF3C7E5C811575F0C5629DEB5B4D4235470EA39
+    SHA256: BA0EBAAC4365915C86EC65042C93FB4093E63E857624119FD177C5048CB4C027

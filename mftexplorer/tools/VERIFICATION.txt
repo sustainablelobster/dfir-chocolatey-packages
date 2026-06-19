@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/MFTExplorer.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 43FBCF955417ACC200939935F9F691051F8A47EB662EFDD1827C7EE5C97B89A8
+    SHA256: 6266F057B3B8243931FF6533B0D72885F3D53976C44F2DB531372117CA54ADE9

@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/SrumECmd.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: DA320E2281687E11DAB966CFCD60AE8AD579C59CB3488F842800E683315F99B6
+    SHA256: 4D7035100F771A7EF5D75AC30E7EDB70761976F2C92476213D19ABB50D4C8489

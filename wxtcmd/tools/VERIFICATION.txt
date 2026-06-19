@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/WxTCmd.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 0B5811DA3AEF435CADA31C8EA53A518811E799E9FF05BF214636EE7D86182EE5
+    SHA256: 7BB114864BFD7A921BDB15576C8237AB667170D3595B869F8CA415EE716811CC

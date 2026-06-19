@@ -6,4 +6,4 @@ Download zip package:
     URL: https://download.ericzimmermanstools.com/net9/EvtxECmd.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 07D7E29E28CD761C0FD48D913B702295DCB435B5F33783DA667306644E425BD5
+    SHA256: 7C0EB3D88D9C51850B52D4C60BC4412E4AEE1E4879641ED484847555A56CE17D

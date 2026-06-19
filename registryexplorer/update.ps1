@@ -12,7 +12,7 @@ function global:au_SearchReplace {
 
 function global:au_GetLatest {
     $LatestReleasePage = Invoke-WebRequest -UseBasicParsing `
-            -Uri 'https://raw.githack.com/EricZimmerman/ericzimmerman.github.io/master/index.md'
+            -Uri 'https://raw.githubusercontent.com/EricZimmerman/ericzimmerman.github.io/refs/heads/master/docs/index.md'
     if ($LatestReleasePage.Content -notmatch 'Registry Explorer.*&vert;\s*\[([\d.]+)\]\((.*/net9/RegistryExplorer.zip)\)') {
         throw "Unable to find tool info"
     }

@@ -11,8 +11,8 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $LatestReleasePage = Invoke-WebRequest -UseBasicParsing -Uri 'https://github.com/obsidianforensics/hindsight/releases/latest'
-    if ($LatestReleasePage.Content -notmatch 'https://github\.com/obsidianforensics/hindsight/releases/expanded_assets/v?([\d.]+)') {
+    $LatestReleasePage = Invoke-WebRequest -UseBasicParsing -Uri 'https://github.com/RyanDFIR/hindsight/releases/latest'
+    if ($LatestReleasePage.Content -notmatch 'https://github\.com/RyanDFIR/hindsight/releases/expanded_assets/v?([\d.]+)') {
         throw "Unable to find assets page"
     }
 

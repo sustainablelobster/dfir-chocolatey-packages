@@ -21,7 +21,7 @@ function global:au_GetLatest {
 }
 
 function global:au_BeforeUpdate {
-    curl.exe -q 'https://xff.cz/megatools/builds/builds/megatools-1.11.5.20250706-win32.zip' -o 'megatools.zip'
+    curl.exe -s 'https://xff.cz/megatools/builds/builds/megatools-1.11.5.20250706-win32.zip' -o 'megatools.zip'
     Expand-Archive -Path 'megatools.zip' -DestinationPath '.'
 
     $ZipPath = '.\Hibernation-Recon.zip'

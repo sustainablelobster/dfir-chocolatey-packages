@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://github.com/abrignoni/ALEAPP/releases/download/v3.4.1/aleapp-v3.4.1-Windows.zip
+    URL: https://github.com/abrignoni/ALEAPP/releases/download/v3.6.0/aleapp-v3.6.0-Windows_x64.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: CCE0E0BBF2901BDAA86C1E396925A30AF61DAA1D7DACD1F61221AD7AF74FFD94
+    SHA256: 95F059DF61EC0C55424CAE23E87CFF93354A6770743BF7157B76A12E655CEE52

@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download hindsight_gui.exe:
-    URL: https://github.com/RyanDFIR/hindsight/releases/download/v2026.04/hindsight_gui.exe
+    URL: https://github.com/RyanDFIR/hindsight/releases/download/v2026.06/hindsight_gui.exe
 
 Compare the SHA256 hash of the downloaded file with that of the embedded exe file:
-    SHA256: C3BBF468992DB37512A3F92CF5E8A11532F1A6FD016E36215E0755473FCA3907
+    SHA256: EC78E8098B9FD898C0B426ADA440138D471604A05760E12F90DB83F15F44D49A

@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://github.com/abrignoni/ALEAPP/releases/download/v3.6.0/aleappGUI-v3.6.0-Windows_x64.zip
+    URL: https://github.com/abrignoni/ALEAPP/releases/download/v2026.1.0/aleappGUI-v2026.1.0-Windows_x64.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 83CCC449C5CE82004DB98AAB130F87E0E6BD985449474B607DF814FDB7324F5B
+    SHA256: 71931E6E48001C3559EFA4ED5B11467B3F3F09BF3A3682D775E5C92C6C1F1D6D

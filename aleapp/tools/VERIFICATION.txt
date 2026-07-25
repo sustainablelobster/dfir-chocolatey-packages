@@ -3,7 +3,7 @@ Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
 Download zip package:
-    URL: https://github.com/abrignoni/ALEAPP/releases/download/v2026.1.0/aleapp-v2026.1.0-Windows_x64.zip
+    URL: https://github.com/abrignoni/ALEAPP/releases/download/v2026.2.0/aleapp-v2026.2.0-Windows_x64.zip
 
 Compare the SHA256 hash of the downloaded zip package with that of the embedded zip package:
-    SHA256: 25E52F4BCA4C1B6AEDA5BD57F1EE7DEE77E82AF089FDB5C64FD8187251DB2627
+    SHA256: 70EA7E91A91AF99B1CA08A89CC3AF413169965B0D27080DDD166F9D919214202
